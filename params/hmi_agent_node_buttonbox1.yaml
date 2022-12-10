@@ -1,0 +1,10 @@
+#BUBX Controller
+bb1_increase_rpm_offset_button_id: 0
+bb1_decrease_rpm_offset_button_id: 1
+bb1_deploy_hooks_button_id: 5
+bb1_begin_climb_button_id: 4
+bb1_retract_hooks_button_id: 11
+bb1_stop_climber_button_id: 10
+bb1_retry_last_stage_climber_button_id: 9
+bb1_increase_angle_button_id: 2
+bb1_decrease_angle_button_id: 3

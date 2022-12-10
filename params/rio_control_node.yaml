@@ -1,0 +1,129 @@
+gear_ratio_to_output_shaft: [
+  # Motor 1 Drive 8.14
+  8.14,
+  # Motor 2 Drive
+  8.14,
+  # Motor 3 Drive
+  8.14,
+  # Motor 4 Drive
+  8.14,
+  # Motor 5 Steering 50/14 * 60/10
+  21.4285714286,
+  # Motor 6 Steering
+  21.4285714286,
+  # Motor 7 Steering
+  21.4285714286,
+  # Motor 8 Steering
+  21.4285714286,
+  # Motor 9 Front Belt
+  1.0,
+  # Motor 10 Back Belt
+  1.0,
+  # Motor 11 Uptake
+  3.0,
+  # Motor 12  Climber 50/10 * 46/24
+  9.5833333333,
+  # Motor 13 Climber
+  9.5833333333,
+  # Motor 14 Climber
+  9.5833333333,
+  # Motor 15 Climber
+  9.5833333333,
+  # Motor 16 Shooter (36 / 17)
+  2.1176470588,
+  # Motor 17 Shooter Slave
+  2.1176470588,
+  # Motor 18 turret yaw - 215/24*3/1
+  26.875,
+  # Motor 19 turret hood  580/14 * 50/10
+  207.1428571429,
+  # Motor 20 N/A
+  1.0,
+]
+
+motor_ticks_per_revolution: [
+  # Motor 1
+  2048.0,
+  # Motor 2
+  2048.0,
+  # Motor 3
+  2048.0,
+  # Motor 4
+  2048.0,
+  # Motor 5
+  2048.0,
+  # Motor 6
+  2048.0,
+  # Motor 7
+  2048.0,
+  # Motor 8
+  2048.0,
+  # Motor 9
+  2048.0,
+  # Motor 10
+  2048.0,
+  # Motor 11
+  2048.0,
+  # Motor 12
+  2048.0,
+  # Motor 13
+  2048.0,
+  # Motor 14
+  2048.0,
+  # Motor 15
+  2048.0,
+  # Motor 16
+  2048.0,
+  # Motor 17
+  2048.0,
+  # Motor 18
+  2048.0,
+  # Motor 19
+  2048.0,
+  # Motor 20
+  2048.0,
+]
+
+# This is in seconds
+motor_ticks_velocity_sample_window: [
+  # Motor 1
+  0.1,
+  # Motor 2
+  0.1,
+  # Motor 3
+  0.1,
+  # Motor 4
+  0.1,
+  # Motor 5
+  0.1,
+  # Motor 6
+  0.1,
+  # Motor 7
+  0.1,
+  # Motor 8
+  0.1,
+  # Motor 9
+  0.1,
+  # Motor 10
+  0.1,
+  # Motor 11
+  0.1,
+  # Motor 12
+  0.1,
+  # Motor 13
+  0.1,
+  # Motor 14
+  0.1,
+  # Motor 15
+  0.1,
+  # Motor 16
+  0.1,
+  # Motor 17
+  0.1,
+  # Motor 18
+  0.1,
+  # Motor 19
+  0.1,
+  # Motor 20
+  0.1,
+]

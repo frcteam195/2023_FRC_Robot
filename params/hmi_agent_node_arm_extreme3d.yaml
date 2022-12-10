@@ -1,0 +1,26 @@
+#Axes
+arm_twist_axis_id: 2
+arm_twist_axis_inverted: true
+arm_axis_deadband: 0.25
+
+arm_intake_rollers_trigger_id: -1
+arm_retract_intake_trigger_id: -1
+
+#POV
+arm_pov_id: 0
+arm_manual_outtake_front_pov_angle: 0
+arm_manual_outtake_back_pov_angle: 180
+arm_hood_up_pov_angle: 999
+arm_hood_down_pov_angle: 999
+
+#Buttons
+arm_intake_rollers_button_id: 4
+arm_retract_intake_button_id: 0
+arm_manual_outtake_front_button_id: 5
+arm_manual_outtake_back_button_id: 3
+arm_turret_manual_button_id: 6
+arm_manual_intake_button_id: -1
+arm_hood_up_button_id: 8
+arm_hood_down_button_id: 9
+arm_rpm_up_button_id: 10
+arm_rpm_down_button_id: 11

@@ -1,0 +1,12 @@
+#DSD32 Controller
+
+bb2_set_near_button_id: 8
+bb2_set_near_mid_button_id: 9
+bb2_set_mid_button_id: 10
+bb2_set_mid_far_button_id: 11
+bb2_set_far_button_id: 12
+bb2_intake_rollers_button_id: 2
+bb2_retract_intakes_button_id: 3
+bb2_manual_intake_button_id: 4
+bb2_manual_outtake_back_button_id: 5
+bb2_manual_outtake_front_button_id: 6

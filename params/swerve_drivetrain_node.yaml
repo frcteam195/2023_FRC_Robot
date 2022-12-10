@@ -1,0 +1,68 @@
+robot_num_wheels: 4
+drive_motor_ids: [1, 2, 3, 4] # front left, front right, back left, back right
+steering_motor_ids: [5, 6, 7, 8]
+drive_motor_inverted: [true, true, true, true]
+drive_sensor_inverted: [false, false, false, false]
+steering_motor_inverted: [true, true, true, true]
+steering_sensor_inverted: [false, false, false, false]
+robot_wheel_inches_from_center_x: [11.5, 11.5, -11.5, -11.5]
+robot_wheel_inches_from_center_y: [11.5, -11.5, 11.5, -11.5]
+robot_max_fwd_vel: 3.5 #m/s
+robot_max_ang_vel: 8.5 #rad/s
+
+motor_type: 0    #0 = TalonFX, 1 = TalonSRX
+voltage_comp_saturation: 12.0   #Saturation voltage
+voltage_comp_enabled: true    #Voltage compensation enabled
+
+brake_mode_default: false
+
+wheel_diameter_inches: 4.0025
+robot_track_width_inches: 25.625
+robot_track_length_inches: 25.625
+robot_linear_inertia: 68  #Linear inertia = Weight in kg
+robot_angular_inertia: 125  #kg m^2
+robot_angular_drag: 0.1  #N*m / (rad/sec)
+# robot_scrub_factor: 0.846231686 #actual dps over expected dps
+robot_scrub_factor: 0.686957169 #actual dps over expected dps
+
+drive_Ks_v_intercept: 0.286695  #volts
+drive_Kv: 0.0139128  #V per rpm
+# drive_Kv: 0.01806447059
+drive_Ka: 0.000934  #V per rpm/s
+
+drive_velocity_kP: 0.13
+drive_velocity_kI: 0.0
+drive_velocity_kD: 2.0
+drive_velocity_kF: 0.0469
+drive_velocity_iZone: 0.0
+drive_velocity_maxIAccum: 0.0
+drive_closed_loop_ramp : 0.01
+drive_motion_cruise_velocity: 0.0
+drive_motion_accel: 0.0
+drive_motion_s_curve_strength: 0
+
+steering_velocity_kP: 0.13
+steering_velocity_kI: 0.0
+steering_velocity_kD: 2.0
+steering_velocity_kF: 0.0469
+steering_velocity_iZone: 0.0
+steering_velocity_maxIAccum: 0.0
+steering_closed_loop_ramp : 0.01
+steering_motion_cruise_velocity: 180000.0
+steering_motion_accel: 120000.0
+steering_motion_s_curve_strength: 0
+
+open_loop_ramp: 0.15
+
+supply_current_limit: 40
+supply_current_limit_threshold: 0
+supply_current_limit_threshold_exceeded_time: 0
+
+joystick_input_ramp_accel: 0.5
+joystick_input_ramp_decel: 0.2
+joystick_input_ramp_zero_val: 0
+joystick_input_ramp_max_val: 1
+
+#Drive Control is an enum in Drivetrain Node
+#0: Swerve velocity feedforward
+drive_control_mode: 0

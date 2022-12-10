@@ -1,0 +1,15 @@
+#Axes
+drive_fwd_back_axis_id: 1
+drive_fwd_back_axis_inverted: true
+drive_turn_axis_id: 0
+drive_turn_axis_inverted: false
+drive_z_axis_id: -1
+drive_z_axis_inverted: false
+drive_axis_deadband: 0.12
+drive_z_axis_deadband: 0.12
+
+#Buttons
+drive_brake_button_id: 6
+drive_quickturn_button_id: 5
+drive_intake_rollers_button_id: 8
+drive_allow_shoot_button_id: 7

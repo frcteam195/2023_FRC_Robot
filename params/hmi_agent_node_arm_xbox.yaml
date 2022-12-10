@@ -1,0 +1,30 @@
+#XBOX Arm Handheld Controller
+#Axes
+arm_twist_axis_id: 0
+arm_twist_axis_inverted: false
+arm_axis_deadband: 0.25
+
+#POV
+arm_pov_id: 0
+arm_manual_outtake_front_pov_angle: 999
+arm_manual_outtake_back_pov_angle: 999
+arm_hood_up_pov_angle: 0 #DPU
+arm_hood_down_pov_angle: 180 #DPD
+arm_shoot_3ball_pov_angle: 90 #DPR
+
+
+#Buttons
+arm_intake_rollers_button_id: -1
+arm_retract_intake_button_id: -1
+arm_intake_rollers_trigger_id: 2
+arm_retract_intake_trigger_id: 3
+
+arm_manual_outtake_front_button_id: 5
+arm_manual_outtake_back_button_id: 4
+arm_turret_manual_button_id: 2
+arm_manual_intake_button_id: -1
+arm_hood_up_button_id: -1
+arm_hood_down_button_id: -1
+arm_rpm_up_button_id: 3
+arm_rpm_down_button_id: 1
+arm_allow_shoot_button_id: 0
