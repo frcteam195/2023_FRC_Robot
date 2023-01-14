@@ -25,6 +25,9 @@
     <rosparam command="load" file="/mnt/working/2022_ROS_Swerve_Robot/params/network_tables_node_robot.yaml" />
   </node> -->
 
+  <node name="dashbard_interface_node" pkg="dashbard_interface_node" type="dashbard_interface_node" clear_params="true" output="screen" respawn="true">
+  </node>
+
   <node name="hmi_agent_node" pkg="hmi_agent_node" type="hmi_agent_node" clear_params="true" output="screen" respawn="true">
     <rosparam command="load" file="/mnt/working/2022_ROS_Swerve_Robot/params/hmi_agent_node_drive_ps4.yaml" />
     <rosparam command="load" file="/mnt/working/2022_ROS_Swerve_Robot/params/hmi_agent_node_arm_xbox.yaml" />
