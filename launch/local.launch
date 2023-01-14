@@ -1,4 +1,5 @@
 <launch>
+  <include file="/mnt/working/2023_FRC_Robot/launch/static_transforms.launch"/>
 
   <node name="light_sim_rio_control_node" pkg="light_sim_2022_rio_control_node" type="light_sim_2022_rio_control_node" clear_params="true" output="screen">
     <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/rio_control_node.yaml" />
@@ -7,7 +8,6 @@
   <node name="swerve_drivetrain_node" pkg="swerve_drivetrain_node" type="swerve_drivetrain_node" output="screen" respawn="true" clear_params="true">
     <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/swerve_drivetrain_node.yaml" />
   </node>
-  <node pkg="tf2_ros" type="static_transform_publisher" name="map_identity" args="0 0 0 0 0 0 odom map" respawn="true" />
 
   <!-- <node name="field_element_publisher_py_node" pkg="field_element_publisher_py_node" type="field_element_publisher_py_node" clear_params="true" output="screen">
   </node> -->

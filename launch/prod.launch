@@ -1,5 +1,5 @@
 <launch>
-  <include file="static_transforms.launch"/>
+  <include file="/mnt/working/2023_FRC_Robot/launch/static_transforms.launch"/>
 
   <node name="rio_control_node" pkg="rio_control_node" type="rio_control_node" clear_params="true" respawn="true" output="screen">
     <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/rio_control_node.yaml" />
