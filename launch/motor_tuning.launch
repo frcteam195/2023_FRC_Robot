@@ -1,0 +1,5 @@
+<launch>
+    <!--Set ROS Master to the Jetson IP-->
+    <env name="ROS_MASTER_URI" value="http://10.1.95.5:11311" />
+    <node name="motor_tuning_node" pkg="motor_tuning_node" type="motor_tuning_node" output="screen" />
+</launch>

@@ -1,0 +1,7 @@
+<launch>
+    <!--Set ROS Master to the Jetson IP-->
+    <env name="ROS_MASTER_URI" value="http://10.1.95.5:11311" />
+    <node name="drive_physics_characterizer_node" pkg="drive_physics_characterizer_node" type="drive_physics_characterizer_node" output="screen">
+        <rosparam command="load" file="/mnt/working/2022_Flatty_Ros_Robot/params/drive_physics_characterizer_node.yaml" />
+    </node>
+</launch>

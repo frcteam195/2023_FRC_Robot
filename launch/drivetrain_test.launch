@@ -1,0 +1,5 @@
+<launch>
+  <node name="drivetrain_node" pkg="drivetrain_node" type="drivetrain_node" clear_params="true" output="screen">
+    <rosparam command="load" file="/mnt/working/2022_Flatty_Ros_Robot/params/drivetrain_node.yaml" />
+  </node>
+</launch>
