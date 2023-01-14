@@ -17,6 +17,8 @@
     <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/local_robot_localization_ukf.yaml" />
   </node>
 
+  <node name="limelight_vision_node" pkg="limelight_vision_node" type="limelight_vision_node" clear_params="true" output="screen" />
+
   <!-- <node name="autonomous_node" pkg="autonomous_node" type="autonomous_node" clear_params="true" output="screen">
   </node> -->
 
