@@ -29,7 +29,7 @@
 
 
   <node name="joy_node" pkg="joy" type="joy_node" clear_params="true" output="screen">
-    <rosparam param="dev">/dev/input/js1</rosparam>
+    <rosparam param="dev">/dev/input/js0</rosparam>
     <rosparam param="autorepeat_rate">50</rosparam>
     <rosparam param="default_trig_val">true</rosparam>
   </node>
@@ -43,7 +43,7 @@
   </node> -->
 
   <node name="hmi_agent_node" pkg="hmi_agent_node" type="hmi_agent_node" clear_params="true" output="screen" respawn="true">
-    <rosparam command="load" file="/mnt/working/2022_ROS_Swerve_Robot/params/hmi_agent_node_drive_ps4_pc.yaml" />
+    <rosparam command="load" file="/mnt/working/2022_ROS_Swerve_Robot/params/hmi_agent_node_drive_ruffy_single.yaml" />
     <rosparam command="load" file="/mnt/working/2022_ROS_Swerve_Robot/params/hmi_agent_node_arm_xbox.yaml" />
     <rosparam command="load" file="/mnt/working/2022_ROS_Swerve_Robot/params/hmi_agent_node_buttonbox1.yaml" />
     <rosparam command="load" file="/mnt/working/2022_ROS_Swerve_Robot/params/hmi_agent_node_buttonbox2.yaml" />

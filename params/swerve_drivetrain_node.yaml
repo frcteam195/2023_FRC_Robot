@@ -30,33 +30,37 @@ drive_Kv: 0.0139128  #V per rpm
 # drive_Kv: 0.01806447059
 drive_Ka: 0.000934  #V per rpm/s
 
-drive_velocity_kP: 0.13
+drive_velocity_kP: 0.07
 drive_velocity_kI: 0.0
-drive_velocity_kD: 2.0
+drive_velocity_kD: 0.43
 drive_velocity_kF: 0.0469
 drive_velocity_iZone: 0.0
 drive_velocity_maxIAccum: 0.0
-drive_closed_loop_ramp : 0.01
+drive_closed_loop_ramp : 0.0
 drive_motion_cruise_velocity: 0.0
 drive_motion_accel: 0.0
 drive_motion_s_curve_strength: 0
 
-steering_velocity_kP: 0.13
+steering_velocity_kP: 2.1
 steering_velocity_kI: 0.0
-steering_velocity_kD: 2.0
-steering_velocity_kF: 0.0469
+steering_velocity_kD: 3.0
+steering_velocity_kF: 0.0
 steering_velocity_iZone: 0.0
 steering_velocity_maxIAccum: 0.0
-steering_closed_loop_ramp : 0.01
-steering_motion_cruise_velocity: 180000.0
+steering_closed_loop_ramp : 0.0
+steering_motion_cruise_velocity: 48000.0
 steering_motion_accel: 120000.0
-steering_motion_s_curve_strength: 0
+steering_motion_s_curve_strength: 2
 
 open_loop_ramp: 0.15
 
-supply_current_limit: 40
-supply_current_limit_threshold: 0
-supply_current_limit_threshold_exceeded_time: 0
+drive_supply_current_limit: 55
+drive_supply_current_limit_threshold: 0
+drive_supply_current_limit_threshold_exceeded_time: 0
+
+steering_supply_current_limit: 80
+steering_supply_current_limit_threshold: 40
+steering_supply_current_limit_threshold_exceeded_time: 1
 
 joystick_input_ramp_accel: 0.5
 joystick_input_ramp_decel: 0.2

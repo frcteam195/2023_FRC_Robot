@@ -2,6 +2,7 @@
 
   <node name="rio_control_node" pkg="rio_control_node" type="rio_control_node" clear_params="true" respawn="true" output="screen">
     <rosparam command="load" file="/mnt/working/2022_ROS_Swerve_Robot/params/rio_control_node.yaml" />
+    <rosparam command="load" file="/mnt/working/2022_ROS_Swerve_Robot/params/encoders.yaml" />
   </node>
 
   <node name="swerve_drivetrain_node" pkg="swerve_drivetrain_node" type="swerve_drivetrain_node" output="screen" respawn="true" clear_params="true">
@@ -26,7 +27,7 @@
   </node> -->
 
   <node name="hmi_agent_node" pkg="hmi_agent_node" type="hmi_agent_node" clear_params="true" output="screen" respawn="true">
-    <rosparam command="load" file="/mnt/working/2022_ROS_Swerve_Robot/params/hmi_agent_node_drive_ps4.yaml" />
+    <rosparam command="load" file="/mnt/working/2022_ROS_Swerve_Robot/params/hmi_agent_node_drive_ruffy_split.yaml" />
     <rosparam command="load" file="/mnt/working/2022_ROS_Swerve_Robot/params/hmi_agent_node_arm_xbox.yaml" />
     <rosparam command="load" file="/mnt/working/2022_ROS_Swerve_Robot/params/hmi_agent_node_buttonbox1.yaml" />
     <rosparam command="load" file="/mnt/working/2022_ROS_Swerve_Robot/params/hmi_agent_node_buttonbox2.yaml" />

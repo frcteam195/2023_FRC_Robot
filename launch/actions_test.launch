@@ -1,0 +1,9 @@
+<launch>
+
+  <node name="action_processor_node" pkg="action_processor_node" type="action_processor_node" clear_params="true" output="screen">
+  </node>
+
+  <node name="test_data_node" pkg="test_data_node" type="test_data_node" output="screen" clear_params="true">
+  </node>
+
+</launch>

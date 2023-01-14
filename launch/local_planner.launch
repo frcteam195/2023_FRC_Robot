@@ -1,0 +1,5 @@
+<launch>
+  <node name="test_optim_node" pkg="teb_local_planner" type="test_optim_node" clear_params="true">
+    <rosparam command="load" file="/mnt/working/2022_Flatty_Ros_Robot/params/test_optim_node.yaml" />
+  </node>
+</launch>

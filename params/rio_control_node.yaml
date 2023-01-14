@@ -8,13 +8,13 @@ gear_ratio_to_output_shaft: [
   # Motor 4 Drive
   8.14,
   # Motor 5 Steering 50/14 * 60/10
-  21.4285714286,
+  1.0, #21.4285714286,
   # Motor 6 Steering
-  21.4285714286,
+  1.0, #21.4285714286,
   # Motor 7 Steering
-  21.4285714286,
+  1.0, #21.4285714286,
   # Motor 8 Steering
-  21.4285714286,
+  1.0, #21.4285714286,
   # Motor 9 Front Belt
   1.0,
   # Motor 10 Back Belt
@@ -51,13 +51,13 @@ motor_ticks_per_revolution: [
   # Motor 4
   2048.0,
   # Motor 5
-  2048.0,
+  4096.0,
   # Motor 6
-  2048.0,
+  4096.0,
   # Motor 7
-  2048.0,
+  4096.0,
   # Motor 8
-  2048.0,
+  4096.0,
   # Motor 9
   2048.0,
   # Motor 10
