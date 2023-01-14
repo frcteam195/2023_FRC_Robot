@@ -29,6 +29,9 @@
   <node name="dashbard_interface_node" pkg="dashbard_interface_node" type="dashbard_interface_node" clear_params="true" output="screen" respawn="true">
   </node>
 
+  <node name="action_runner_py_node" pkg="action_runner_py_node" type="action_runner_py_node" clear_params="true" output="screen" respawn="true">
+  </node>
+
   <node name="hmi_agent_node" pkg="hmi_agent_node" type="hmi_agent_node" clear_params="true" output="screen" respawn="true">
     <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/hmi_agent_node_drive_ruffy_split.yaml" />
     <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/hmi_agent_node_arm_xbox.yaml" />
