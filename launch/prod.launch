@@ -30,6 +30,7 @@
 
   <node name="dashbard_interface_node" pkg="dashbard_interface_node" type="dashbard_interface_node" clear_params="true" output="screen" respawn="true">
   </node>
+  
   <node name="health_monitor_node" pkg="health_monitor_node" type="health_monitor_node" clear_params="true" output="screen" respawn="true">
   </node>
 
