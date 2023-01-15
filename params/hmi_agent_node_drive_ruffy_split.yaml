@@ -10,7 +10,6 @@ drive_z_axis_deadband: 0.05
 
 
 #Buttons
+field_orient_button_id: 2
+robot_orient_button_id: 3
 drive_brake_button_id: 1
-drive_quickturn_button_id: 0
-drive_intake_rollers_button_id: 2
-drive_allow_shoot_button_id: 3
