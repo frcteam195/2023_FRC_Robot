@@ -14,7 +14,7 @@
 
 
   <node name="ukf_se" pkg="robot_localization" type="ukf_localization_node" clear_params="true" output="screen">
-    <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/local_robot_localization_ukf.yaml" />
+    <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/robot_localization_ukf_local.yaml" />
   </node>
 
   <node name="limelight_vision_node" pkg="limelight_vision_node" type="limelight_vision_node" clear_params="true" output="screen" />
@@ -22,9 +22,9 @@
   <!-- <node name="autonomous_node" pkg="autonomous_node" type="autonomous_node" clear_params="true" output="screen">
   </node> -->
 
-  <!-- <node name="network_tables_node" pkg="network_tables_node" type="network_tables_node" clear_params="true" output="screen" respawn="true">
-    <rosparam command="load" file="/mnt/working/2022_ROS_Robot/params/network_tables_node_local.yaml" />
-  </node> -->
+  <node name="network_tables_node" pkg="network_tables_node" type="network_tables_node" clear_params="true" output="screen" respawn="true">
+    <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/network_tables_node_local.yaml" />
+  </node>
 
   <!-- <node name="logger_node" pkg="logger_node" type="logger_node" clear_params="true" output="screen" respawn="true">
   </node> --> -->
