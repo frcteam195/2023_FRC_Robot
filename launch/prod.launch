@@ -28,7 +28,7 @@
     <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/network_tables_node_robot.yaml" />
   </node> -->
 
-  <node name="dashbard_interface_node" pkg="dashbard_interface_node" type="dashbard_interface_node" clear_params="true" output="screen" respawn="true">
+  <node name="dashboard_interface_node" pkg="dashboard_interface_node" type="dashboard_interface_node" clear_params="true" output="screen" respawn="true">
   </node>
   
   <node name="health_monitor_node" pkg="health_monitor_node" type="health_monitor_node" clear_params="true" output="screen" respawn="true">
