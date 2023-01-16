@@ -24,13 +24,13 @@
   <!-- <node name="logger_node" pkg="logger_node" type="logger_node" clear_params="true" output="screen" respawn="true">
   </node> -->
 
-  <!-- <node name="network_tables_node" pkg="network_tables_node" type="network_tables_node" clear_params="true" output="screen" respawn="true">
+  <node name="network_tables_node" pkg="network_tables_node" type="network_tables_node" clear_params="true" output="screen" respawn="true">
     <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/network_tables_node_robot.yaml" />
-  </node> -->
+  </node>
 
   <node name="dashboard_interface_node" pkg="dashboard_interface_node" type="dashboard_interface_node" clear_params="true" output="screen" respawn="true">
   </node>
-  
+
   <node name="health_monitor_node" pkg="health_monitor_node" type="health_monitor_node" clear_params="true" output="screen" respawn="true">
   </node>
 
