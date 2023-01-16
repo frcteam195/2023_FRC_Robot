@@ -1,0 +1,8 @@
+<launch>
+  <node name="logger_node" pkg="logger_node" type="logger_node" clear_params="true" output="screen" respawn="true">
+  </node>
+
+  <node name="trajectory_generator_node" pkg="trajectory_generator_node" type="trajectory_generator_node" clear_params="true" output="screen" respawn="false">
+    <rosparam command="load" file="/mnt/working/2022_ROS_Swerve_Robot/params/trajectory_generator_params.yaml" />
+  </node>
+</launch>
