@@ -8,8 +8,7 @@ drive_z_axis_inverted: true
 drive_axis_deadband: 0.05
 drive_z_axis_deadband: 0.05
 
-
 #Buttons
 field_orient_button_id: 2
 robot_orient_button_id: 3
-drive_brake_button_id: 1
+brake_button_id: 1
