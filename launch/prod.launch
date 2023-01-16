@@ -13,6 +13,8 @@
     <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/robot_localization_ukf.yaml" />
   </node>
 
+  <node name="limelight_vision_node" pkg="limelight_vision_node" type="limelight_vision_node" clear_params="true" output="screen" />
+
   <!-- <node name="autonomous_node" pkg="autonomous_node" type="autonomous_node" clear_params="true" output="screen" respawn="true">
   </node>
 
@@ -22,11 +24,20 @@
   <!-- <node name="logger_node" pkg="logger_node" type="logger_node" clear_params="true" output="screen" respawn="true">
   </node> -->
 
-  <!-- <node name="network_tables_node" pkg="network_tables_node" type="network_tables_node" clear_params="true" output="screen" respawn="true">
+  <node name="network_tables_node" pkg="network_tables_node" type="network_tables_node" clear_params="true" output="screen" respawn="true">
     <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/network_tables_node_robot.yaml" />
-  </node> -->
+  </node>
 
-  <node name="dashbard_interface_node" pkg="dashbard_interface_node" type="dashbard_interface_node" clear_params="true" output="screen" respawn="true">
+  <node name="dashboard_interface_node" pkg="dashboard_interface_node" type="dashboard_interface_node" clear_params="true" output="screen" respawn="true">
+  </node>
+
+  <node name="health_monitor_node" pkg="health_monitor_node" type="health_monitor_node" clear_params="true" output="screen" respawn="true">
+  </node>
+
+  <node name="intake_node" pkg="intake_node" type="intake_node" clear_params="true" output="screen" respawn="true">
+  </node>
+
+  <node name="led_control_node" pkg="led_control_node" type="led_control_node" clear_params="true" output="screen" respawn="true">
   </node>
 
   <node name="action_runner_py_node" pkg="action_runner_py_node" type="action_runner_py_node" clear_params="true" output="screen" respawn="true">
@@ -34,9 +45,6 @@
 
   <node name="hmi_agent_node" pkg="hmi_agent_node" type="hmi_agent_node" clear_params="true" output="screen" respawn="true">
     <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/hmi_agent_node_drive_ruffy_split.yaml" />
-    <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/hmi_agent_node_arm_xbox.yaml" />
-    <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/hmi_agent_node_buttonbox1.yaml" />
-    <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/hmi_agent_node_buttonbox2.yaml" />
   </node>
 
 </launch>
