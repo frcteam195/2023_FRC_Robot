@@ -45,10 +45,7 @@
   </node> -->
 
   <node name="hmi_agent_node" pkg="hmi_agent_node" type="hmi_agent_node" clear_params="true" output="screen" respawn="true">
-    <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/hmi_agent_node_drive_ruffy_single.yaml" />
-    <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/hmi_agent_node_arm_xbox.yaml" />
-    <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/hmi_agent_node_buttonbox1.yaml" />
-    <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/hmi_agent_node_buttonbox2.yaml" />
+    <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/hmi_agent_node_drive_ruffy_split.yaml" />
   </node>
 
 </launch>
