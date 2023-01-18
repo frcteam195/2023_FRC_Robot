@@ -19,9 +19,6 @@
 
   <node name="limelight_vision_node" pkg="limelight_vision_node" type="limelight_vision_node" clear_params="true" output="screen" />
 
-  <!-- <node name="autonomous_node" pkg="autonomous_node" type="autonomous_node" clear_params="true" output="screen">
-  </node> -->
-
   <node name="network_tables_node" pkg="network_tables_node" type="network_tables_node" clear_params="true" output="screen" respawn="true">
     <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/network_tables_node_local.yaml" />
   </node>
@@ -46,6 +43,12 @@
 
   <node name="hmi_agent_node" pkg="hmi_agent_node" type="hmi_agent_node" clear_params="true" output="screen" respawn="true">
     <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/hmi_agent_node_drive_ruffy_split.yaml" />
+  </node>
+
+  <node name="dashboard_interface_node" pkg="dashboard_interface_node" type="dashboard_interface_node" clear_params="true" output="screen" respawn="true">
+  </node>
+
+<node name="autonomous_node" pkg="autonomous_node" type="autonomous_node" clear_params="true" output="screen" respawn="true">
   </node>
 
 </launch>
