@@ -17,3 +17,4 @@ git@github.com:frcteam195/led_control_node.git
 git@github.com:frcteam195/health_monitor_node.git
 git@github.com:frcteam195/2023_arm_node.git
 git@github.com:frcteam195/2023_intake_node.git
+git@github.com:frcteam195/2023_autonomous_node.git

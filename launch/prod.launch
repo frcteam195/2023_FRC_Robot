@@ -15,11 +15,8 @@
 
   <node name="limelight_vision_node" pkg="limelight_vision_node" type="limelight_vision_node" clear_params="true" output="screen" />
 
-  <!-- <node name="autonomous_node" pkg="autonomous_node" type="autonomous_node" clear_params="true" output="screen" respawn="true">
+  <node name="autonomous_node" pkg="autonomous_node" type="autonomous_node" clear_params="true" output="screen" respawn="true">
   </node>
-
-  <node name="quesadilla_auto_node" pkg="quesadilla_auto_node" type="quesadilla_auto_node" clear_params="true" output="screen" respawn="true">
-  </node> -->
 
   <!-- <node name="logger_node" pkg="logger_node" type="logger_node" clear_params="true" output="screen" respawn="true">
   </node> -->
