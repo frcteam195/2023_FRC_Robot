@@ -31,8 +31,8 @@
   <node name="health_monitor_node" pkg="health_monitor_node" type="health_monitor_node" clear_params="true" output="screen" respawn="true">
   </node>
 
-  <node name="intake_node" pkg="intake_node" type="intake_node" clear_params="true" output="screen" respawn="true">
-  </node>
+  <!-- <node name="intake_node" pkg="intake_node" type="intake_node" clear_params="true" output="screen" respawn="true">
+  </node> -->
 
   <node name="led_control_node" pkg="led_control_node" type="led_control_node" clear_params="true" output="screen" respawn="true">
   </node>
@@ -44,4 +44,7 @@
     <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/hmi_agent_node_drive_ruffy_split.yaml" />
   </node>
 
+  <node name="trajectory_generator_node" pkg="trajectory_generator_node" type="trajectory_generator_node" clear_params="true" output="screen" respawn="true">
+    <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/trajectory_generator_params.yaml" />
+  </node>
 </launch>
