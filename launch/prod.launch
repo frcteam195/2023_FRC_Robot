@@ -3,7 +3,7 @@
 
   <node name="rio_control_node" pkg="rio_control_node" type="rio_control_node" clear_params="true" respawn="true" output="screen">
     <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/rio_control_node.yaml" />
-    <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/encoders.yaml" />
+    <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/remote_encoder_mappings.yaml" />
   </node>
 
   <node name="swerve_drivetrain_node" pkg="swerve_drivetrain_node" type="swerve_drivetrain_node" output="screen" respawn="true" clear_params="true">

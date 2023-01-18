@@ -1,0 +1,2 @@
+motor_ids_to_override_encoder: [ 5,  6,  7,  8] # front left, front right, back left, back right
+remote_encoder_ids:            [25, 26, 27, 28]

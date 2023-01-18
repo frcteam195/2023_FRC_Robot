@@ -142,7 +142,7 @@ odom1_config: [false,  false,  false,
               false,  false,  false,
               false,  false,  false]
 odom1_nodelay: true
-odom1_differential: false
+odom1_differential: true
 odom1_relative: true
 odom1_queue_size: 100
 
