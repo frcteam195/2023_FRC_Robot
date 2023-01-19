@@ -28,8 +28,7 @@
   </node>
 
   <!-- <node name="logger_node" pkg="logger_node" type="logger_node" clear_params="true" output="screen" respawn="true">
-  </node> --> -->
-
+  </node> -->
 
   <node name="joy_node" pkg="joy" type="joy_node" clear_params="true" output="screen">
     <rosparam param="dev">/dev/input/js0</rosparam>
@@ -56,5 +55,8 @@
   </node>
 
   <node name="health_monitor_node" pkg="health_monitor_node" type="health_monitor_node" clear_params="true" output="screen" respawn="true">
+  </node>
+
+  <node name="intake_node" pkg="intake_node" type="intake_node" clear_params="true" output="screen" respawn="true">
   </node>
 </launch>
