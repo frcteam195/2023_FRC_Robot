@@ -31,8 +31,8 @@
   <node name="health_monitor_node" pkg="health_monitor_node" type="health_monitor_node" clear_params="true" output="screen" respawn="true">
   </node>
 
-  <!-- <node name="led_control_node" pkg="led_control_node" type="led_control_node" clear_params="true" output="screen" respawn="true">
-  </node> -->
+  <node name="led_control_node" pkg="led_control_node" type="led_control_node" clear_params="true" output="screen" respawn="true">
+  </node>
 
   <node name="action_runner_py_node" pkg="action_runner_py_node" type="action_runner_py_node" clear_params="true" output="screen" respawn="true">
   </node>
