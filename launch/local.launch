@@ -59,4 +59,7 @@
 
   <node name="intake_node" pkg="intake_node" type="intake_node" clear_params="true" output="screen" respawn="true">
   </node>
+
+  <node name="arm_node" pkg="arm_node" type="arm_node" clear_params="true" output="screen" respawn="true">
+  </node>
 </launch>
