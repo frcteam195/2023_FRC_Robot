@@ -1,7 +1,7 @@
 <launch>
   <include file="/mnt/working/2023_FRC_Robot/launch/static_transforms.launch"/>
 
-  <node name="light_sim_rio_control_node" pkg="light_sim_2022_rio_control_node" type="light_sim_2022_rio_control_node" clear_params="true" output="screen">
+  <node name="light_sim_rio_control_node" pkg="light_sim_rio_control_node" type="light_sim_rio_control_node" clear_params="true" output="screen">
     <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/rio_control_node.yaml" />
   </node>
 
@@ -39,10 +39,7 @@
   <!-- <node name="trajectory_generator_node" pkg="trajectory_generator_node" type="trajectory_generator_node" clear_params="true" output="screen" respawn="true">
     <rosparam command="load" file="/mnt/working/2022_ROS_Robot/params/trajectory_generator_params.yaml" />
   </node>
-
-
-  <node name="trajectory_follower_node" pkg="trajectory_follower_node" type="trajectory_follower_node" clear_params="true" output="screen" respawn="true">
-  </node> -->
+-->
 
   <node name="hmi_agent_node" pkg="hmi_agent_node" type="hmi_agent_node" clear_params="true" output="screen" respawn="true">
     <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/hmi_agent_node_drive_ruffy_split.yaml" />
