@@ -47,6 +47,7 @@
   </node> -->
 
   <!-- <node name="arm_node" pkg="arm_node" type="arm_node" clear_params="true" output="screen" respawn="true">
+      <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/arm_node_params.yaml" />
   </node> -->
 
 </launch>
