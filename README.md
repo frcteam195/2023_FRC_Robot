@@ -8,8 +8,6 @@ This is the main robot project. All nodes used in the robot should be defined in
 
 ### Robot Nodes
 
-[2023_trajectories](https://github.com/frcteam195/2023_trajectories.git)
-
 [arm_2023_node](https://github.com/frcteam195/arm_2023_node.git)
 
 [autonomous_2023_node](https://github.com/frcteam195/autonomous_2023_node.git)
@@ -47,6 +45,8 @@ This is the main robot project. All nodes used in the robot should be defined in
 [rio_control_node](https://github.com/frcteam195/rio_control_node.git)
 
 [swerve_drivetrain_node](https://github.com/frcteam195/swerve_drivetrain_node.git)
+
+[trajectories_2023](https://github.com/frcteam195/trajectories_2023.git)
 
 [trajectory_generator_node](https://github.com/frcteam195/trajectory_generator_node.git)
 
