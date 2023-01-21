@@ -22,7 +22,7 @@ This is the main robot project. All nodes used in the robot should be defined in
 
 [dashboard_interface_2023_node](https://github.com/frcteam195/dashboard_interface_2023_node.git)
 
-[field_element_publisher_py_node](https://github.com/frcteam195/field_element_publisher_py_node.git)
+[field_element_publisher_2023_node](https://github.com/frcteam195/field_element_publisher_2023_node.git)
 
 [frc_robot_utilities_node](https://github.com/frcteam195/frc_robot_utilities_node.git)
 
@@ -30,7 +30,7 @@ This is the main robot project. All nodes used in the robot should be defined in
 
 [health_monitor_node](https://github.com/frcteam195/health_monitor_node.git)
 
-[hmi_agent_2023_robot_py_node](https://github.com/frcteam195/hmi_agent_2023_robot_py_node.git)
+[hmi_agent_2023_node](https://github.com/frcteam195/hmi_agent_2023_node.git)
 
 [intake_2023_node](https://github.com/frcteam195/intake_2023_node.git)
 

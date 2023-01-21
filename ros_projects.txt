@@ -3,7 +3,7 @@ git@github.com:frcteam195/light_sim_2022_rio_control_node.git
 git@github.com:frcteam195/swerve_drivetrain_node.git
 git@github.com:frcteam195/ck_utilities_node.git
 git@github.com:frcteam195/ck_utilities_py_node.git
-git@github.com:frcteam195/field_element_publisher_py_node.git
+git@github.com:frcteam195/field_element_publisher_2023_node.git
 git@github.com:frcteam195/network_tables_node.git
 git@github.com:frcteam195/hmi_agent_2023_node.git
 git@github.com:frcteam195/logger_node.git
