@@ -59,7 +59,4 @@
 
   <node name="arm_node" pkg="arm_node" type="arm_node" clear_params="true" output="screen" respawn="true">
   </node>
-
-  <node name="led_control_node" pkg="led_control_node" type="led_control_node" clear_params="true" output="screen" respawn="true">
-  </node>
 </launch>
