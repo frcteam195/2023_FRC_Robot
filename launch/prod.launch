@@ -42,9 +42,9 @@
     <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/trajectory_generator_params.yaml" />
   </node>
 
-  <!-- <node name="intake_node" pkg="intake_node" type="intake_node" clear_params="true" output="screen" respawn="true">
+  <node name="intake_node" pkg="intake_node" type="intake_node" clear_params="true" output="screen" respawn="true">
     <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/intake_node_params.yaml" />
-  </node> -->
+  </node>
 
   <!-- <node name="arm_node" pkg="arm_node" type="arm_node" clear_params="true" output="screen" respawn="true">
       <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/arm_node_params.yaml" />
