@@ -7,8 +7,8 @@ steering_motor_inverted: [true, true, true, true]
 steering_sensor_inverted: [false, false, false, false]
 robot_wheel_inches_from_center_x: [11.5, 11.5, -11.5, -11.5]
 robot_wheel_inches_from_center_y: [11.5, -11.5, 11.5, -11.5]
-robot_max_fwd_vel: 3.5 #m/s
-robot_max_ang_vel: 8.5 #rad/s
+robot_max_fwd_vel: 3.4 #m/s
+robot_max_ang_vel: 6.5 #rad/s
 
 motor_type: 0    #0 = TalonFX, 1 = TalonSRX
 voltage_comp_saturation: 12.0   #Saturation voltage
@@ -16,7 +16,8 @@ voltage_comp_enabled: true    #Voltage compensation enabled
 
 brake_mode_default: false
 
-wheel_diameter_inches: 4.0025
+# wheel_diameter_inches: 4.0025
+wheel_diameter_inches: 3.9
 robot_track_width_inches: 25.625
 robot_track_length_inches: 25.625
 robot_linear_inertia: 68  #Linear inertia = Weight in kg

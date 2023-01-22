@@ -1,8 +1,12 @@
 <launch>
   <include file="/mnt/working/2023_FRC_Robot/launch/static_transforms.launch"/>
 
-  <node name="light_sim_rio_control_node" pkg="light_sim_2022_rio_control_node" type="light_sim_2022_rio_control_node" clear_params="true" output="screen">
+  <node name="light_sim_rio_control_node" pkg="light_sim_rio_control_node" type="light_sim_rio_control_node" clear_params="true" output="screen">
     <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/rio_control_node.yaml" />
+  </node>
+
+  <node name="trajectory_generator_node" pkg="trajectory_generator_node" type="trajectory_generator_node" clear_params="true" output="screen" respawn="true">
+    <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/trajectory_generator_params.yaml" />
   </node>
 
   <node name="swerve_drivetrain_node" pkg="swerve_drivetrain_node" type="swerve_drivetrain_node" output="screen" respawn="true" clear_params="true">
@@ -17,18 +21,14 @@
     <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/robot_localization_ukf_local.yaml" />
   </node>
 
-  <node name="limelight_vision_node" pkg="limelight_vision_node" type="limelight_vision_node" clear_params="true" output="screen" />
+  <!-- <node name="limelight_vision_node" pkg="limelight_vision_node" type="limelight_vision_node" clear_params="true" output="screen" /> -->
 
-  <!-- <node name="autonomous_node" pkg="autonomous_node" type="autonomous_node" clear_params="true" output="screen">
+  <!-- <node name="network_tables_node" pkg="network_tables_node" type="network_tables_node" clear_params="true" output="screen" respawn="true">
+    <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/network_tables_node_local.yaml" />
   </node> -->
 
-  <node name="network_tables_node" pkg="network_tables_node" type="network_tables_node" clear_params="true" output="screen" respawn="true">
-    <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/network_tables_node_local.yaml" />
-  </node>
-
   <!-- <node name="logger_node" pkg="logger_node" type="logger_node" clear_params="true" output="screen" respawn="true">
-  </node> --> -->
-
+  </node> -->
 
   <node name="joy_node" pkg="joy" type="joy_node" clear_params="true" output="screen">
     <rosparam param="dev">/dev/input/js0</rosparam>
@@ -39,10 +39,17 @@
   <!-- <node name="trajectory_generator_node" pkg="trajectory_generator_node" type="trajectory_generator_node" clear_params="true" output="screen" respawn="true">
     <rosparam command="load" file="/mnt/working/2022_ROS_Robot/params/trajectory_generator_params.yaml" />
   </node>
+-->
 
+  <node name="hmi_agent_node" pkg="hmi_agent_node" type="hmi_agent_node" clear_params="true" output="screen" respawn="true">
+    <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/hmi_agent_node_drive_ruffy_split.yaml" />
+  </node>
 
-  <node name="trajectory_follower_node" pkg="trajectory_follower_node" type="trajectory_follower_node" clear_params="true" output="screen" respawn="true">
-  </node> -->
+  <node name="dashboard_interface_node" pkg="dashboard_interface_node" type="dashboard_interface_node" clear_params="true" output="screen" respawn="true">
+  </node>
+
+  <node name="autonomous_node" pkg="autonomous_node" type="autonomous_node" clear_params="true" output="screen" respawn="true">
+  </node>
 
   <!-- <node name="hmi_agent_node" pkg="hmi_agent_node" type="hmi_agent_node" clear_params="true" output="screen" respawn="true">
     <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/hmi_agent_node_drive_ruffy_single.yaml" />
@@ -54,4 +61,14 @@
   <node name="field_publisher_node" pkg="field_publisher_node" type="field_publisher_node" clear_params="true" output="screen" respawn="true">
   </node>
 
+  <node name="health_monitor_node" pkg="health_monitor_node" type="health_monitor_node" clear_params="true" output="screen" respawn="true">
+  </node>
+
+  <node name="intake_node" pkg="intake_node" type="intake_node" clear_params="true" output="screen" respawn="true">
+    <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/intake_node_params.yaml" />
+  </node>
+
+  <node name="arm_node" pkg="arm_node" type="arm_node" clear_params="true" output="screen" respawn="true">
+      <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/arm_node_params.yaml" />
+  </node>
 </launch>

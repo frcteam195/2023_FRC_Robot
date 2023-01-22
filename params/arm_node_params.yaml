@@ -1,0 +1,240 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+####################################################
+## MOTOR CONFIGS BELOW
+####################################################
+
+baseArmMaster_motor_id: 13
+baseArmMaster_fast_master: False
+baseArmMaster_kP: 0
+baseArmMaster_kI: 0
+baseArmMaster_kD: 0
+baseArmMaster_kF: 0
+baseArmMaster_iZone: 0
+baseArmMaster_maxIAccum: 0
+baseArmMaster_allowedClosedLoopError: 0
+baseArmMaster_maxClosedLoopPeakOutput: 0
+baseArmMaster_motionCruiseVelocity: 0
+baseArmMaster_motionCruiseAcceleration: 0
+baseArmMaster_motionSCurveStrength: 0
+baseArmMaster_forwardSoftLimit: 0
+baseArmMaster_forwardSoftLimitEnable: False
+baseArmMaster_reverseSoftLimit: 0
+baseArmMaster_reverseSoftLimitEnable: False
+baseArmMaster_feedbackSensorCoefficient: 0
+baseArmMaster_voltageCompensationSaturation: 12
+baseArmMaster_voltageCompensationEnabled: True
+baseArmMaster_inverted: False
+baseArmMaster_sensorPhaseInverted: False
+baseArmMaster_neutralModeBrake: False
+baseArmMaster_openLoopRamp: 0
+baseArmMaster_closedLoopRamp: 0
+baseArmMaster_supplyCurrentLimitEnable: True
+baseArmMaster_supplyCurrentLimit: 40
+baseArmMaster_supplyCurrentLimitThresholdCurrent: 0
+baseArmMaster_supplyCurrentLimitThresholdTime: 0
+baseArmMaster_statorCurrentLimitEnable: False
+baseArmMaster_statorCurrentLimit: 0
+baseArmMaster_statorCurrentLimitThresholdCurrent: 0
+baseArmMaster_statorCurrentLimitThresholdTime:  0
+baseArmMaster_followingEnabled: False
+baseArmMaster_followerId: 0
+baseArmMaster_forwardLimitSwitchEnabled: False
+baseArmMaster_reverseLimitSwitchEnabled: False
+baseArmMaster_forwardLimitSwitchSourceType: 0
+baseArmMaster_reverseLimitSwitchSourceType: 0
+baseArmMaster_forwardLimitSwitchNormallyClosed: False
+baseArmMaster_reverseLimitSwitchNormallyClosed: False
+baseArmMaster_peakOutputForward: 0
+baseArmMaster_peakOutputReverse: 0
+
+baseArmSlave_motor_id: 14
+baseArmSlave_fast_master: False
+baseArmSlave_kP: 0
+baseArmSlave_kI: 0
+baseArmSlave_kD: 0
+baseArmSlave_kF: 0
+baseArmSlave_iZone: 0
+baseArmSlave_maxIAccum: 0
+baseArmSlave_allowedClosedLoopError: 0
+baseArmSlave_maxClosedLoopPeakOutput: 0
+baseArmSlave_motionCruiseVelocity: 0
+baseArmSlave_motionCruiseAcceleration: 0
+baseArmSlave_motionSCurveStrength: 0
+baseArmSlave_forwardSoftLimit: 0
+baseArmSlave_forwardSoftLimitEnable: False
+baseArmSlave_reverseSoftLimit: 0
+baseArmSlave_reverseSoftLimitEnable: False
+baseArmSlave_feedbackSensorCoefficient: 0
+baseArmSlave_voltageCompensationSaturation: 12
+baseArmSlave_voltageCompensationEnabled: True
+baseArmSlave_inverted: False
+baseArmSlave_sensorPhaseInverted: False
+baseArmSlave_neutralModeBrake: False
+baseArmSlave_openLoopRamp: 0
+baseArmSlave_closedLoopRamp: 0
+baseArmSlave_supplyCurrentLimitEnable: True
+baseArmSlave_supplyCurrentLimit: 40
+baseArmSlave_supplyCurrentLimitThresholdCurrent: 0
+baseArmSlave_supplyCurrentLimitThresholdTime: 0
+baseArmSlave_statorCurrentLimitEnable: False
+baseArmSlave_statorCurrentLimit: 0
+baseArmSlave_statorCurrentLimitThresholdCurrent: 0
+baseArmSlave_statorCurrentLimitThresholdTime:  0
+baseArmSlave_followingEnabled: True
+baseArmSlave_followerId: 13
+baseArmSlave_forwardLimitSwitchEnabled: False
+baseArmSlave_reverseLimitSwitchEnabled: False
+baseArmSlave_forwardLimitSwitchSourceType: 0
+baseArmSlave_reverseLimitSwitchSourceType: 0
+baseArmSlave_forwardLimitSwitchNormallyClosed: False
+baseArmSlave_reverseLimitSwitchNormallyClosed: False
+baseArmSlave_peakOutputForward: 0
+baseArmSlave_peakOutputReverse: 0
+
+secondArmMaster_motor_id: 15
+secondArmMaster_fast_master: False
+secondArmMaster_kP: 0
+secondArmMaster_kI: 0
+secondArmMaster_kD: 0
+secondArmMaster_kF: 0
+secondArmMaster_iZone: 0
+secondArmMaster_maxIAccum: 0
+secondArmMaster_allowedClosedLoopError: 0
+secondArmMaster_maxClosedLoopPeakOutput: 0
+secondArmMaster_motionCruiseVelocity: 0
+secondArmMaster_motionCruiseAcceleration: 0
+secondArmMaster_motionSCurveStrength: 0
+secondArmMaster_forwardSoftLimit: 0
+secondArmMaster_forwardSoftLimitEnable: False
+secondArmMaster_reverseSoftLimit: 0
+secondArmMaster_reverseSoftLimitEnable: False
+secondArmMaster_feedbackSensorCoefficient: 0
+secondArmMaster_voltageCompensationSaturation: 12
+secondArmMaster_voltageCompensationEnabled: True
+secondArmMaster_inverted: False
+secondArmMaster_sensorPhaseInverted: False
+secondArmMaster_neutralModeBrake: False
+secondArmMaster_openLoopRamp: 0
+secondArmMaster_closedLoopRamp: 0
+secondArmMaster_supplyCurrentLimitEnable: True
+secondArmMaster_supplyCurrentLimit: 40
+secondArmMaster_supplyCurrentLimitThresholdCurrent: 0
+secondArmMaster_supplyCurrentLimitThresholdTime: 0
+secondArmMaster_statorCurrentLimitEnable: False
+secondArmMaster_statorCurrentLimit: 0
+secondArmMaster_statorCurrentLimitThresholdCurrent: 0
+secondArmMaster_statorCurrentLimitThresholdTime:  0
+secondArmMaster_followingEnabled: False
+secondArmMaster_followerId: 0
+secondArmMaster_forwardLimitSwitchEnabled: False
+secondArmMaster_reverseLimitSwitchEnabled: False
+secondArmMaster_forwardLimitSwitchSourceType: 0
+secondArmMaster_reverseLimitSwitchSourceType: 0
+secondArmMaster_forwardLimitSwitchNormallyClosed: False
+secondArmMaster_reverseLimitSwitchNormallyClosed: False
+secondArmMaster_peakOutputForward: 0
+secondArmMaster_peakOutputReverse: 0
+
+
+secondArmSlave_motor_id: 16
+secondArmSlave_fast_master: False
+secondArmSlave_kP: 0
+secondArmSlave_kI: 0
+secondArmSlave_kD: 0
+secondArmSlave_kF: 0
+secondArmSlave_iZone: 0
+secondArmSlave_maxIAccum: 0
+secondArmSlave_allowedClosedLoopError: 0
+secondArmSlave_maxClosedLoopPeakOutput: 0
+secondArmSlave_motionCruiseVelocity: 0
+secondArmSlave_motionCruiseAcceleration: 0
+secondArmSlave_motionSCurveStrength: 0
+secondArmSlave_forwardSoftLimit: 0
+secondArmSlave_forwardSoftLimitEnable: False
+secondArmSlave_reverseSoftLimit: 0
+secondArmSlave_reverseSoftLimitEnable: False
+secondArmSlave_feedbackSensorCoefficient: 0
+secondArmSlave_voltageCompensationSaturation: 12
+secondArmSlave_voltageCompensationEnabled: True
+secondArmSlave_inverted: False
+secondArmSlave_sensorPhaseInverted: False
+secondArmSlave_neutralModeBrake: False
+secondArmSlave_openLoopRamp: 0
+secondArmSlave_closedLoopRamp: 0
+secondArmSlave_supplyCurrentLimitEnable: True
+secondArmSlave_supplyCurrentLimit: 40
+secondArmSlave_supplyCurrentLimitThresholdCurrent: 0
+secondArmSlave_supplyCurrentLimitThresholdTime: 0
+secondArmSlave_statorCurrentLimitEnable: False
+secondArmSlave_statorCurrentLimit: 0
+secondArmSlave_statorCurrentLimitThresholdCurrent: 0
+secondArmSlave_statorCurrentLimitThresholdTime:  0
+secondArmSlave_followingEnabled: True
+secondArmSlave_followerId: 15
+secondArmSlave_forwardLimitSwitchEnabled: False
+secondArmSlave_reverseLimitSwitchEnabled: False
+secondArmSlave_forwardLimitSwitchSourceType: 0
+secondArmSlave_reverseLimitSwitchSourceType: 0
+secondArmSlave_forwardLimitSwitchNormallyClosed: False
+secondArmSlave_reverseLimitSwitchNormallyClosed: False
+secondArmSlave_peakOutputForward: 0
+secondArmSlave_peakOutputReverse: 0
+
+# Sample Motor Configuration
+# ALL VALUES MUST BE PRESENT OR THE MOTOR CONFIGURATOR WILL THROW AN EXCEPTION AND REJECT THE CONFIG
+# motorname_motor_id: 0  #### << MAKE SURE YOU SET THIS AT A MINIMUM
+# motorname_fast_master: False
+# motorname_kP: 0
+# motorname_kI: 0
+# motorname_kD: 0
+# motorname_kF: 0
+# motorname_iZone: 0
+# motorname_maxIAccum: 0
+# motorname_allowedClosedLoopError: 0
+# motorname_maxClosedLoopPeakOutput: 0
+# motorname_motionCruiseVelocity: 0
+# motorname_motionCruiseAcceleration: 0
+# motorname_motionSCurveStrength: 0
+# motorname_forwardSoftLimit: 0
+# motorname_forwardSoftLimitEnable: False
+# motorname_reverseSoftLimit: 0
+# motorname_reverseSoftLimitEnable: False
+# motorname_feedbackSensorCoefficient: 0
+# motorname_voltageCompensationSaturation: 12
+# motorname_voltageCompensationEnabled: True
+# motorname_inverted: False
+# motorname_sensorPhaseInverted: False
+# motorname_neutralModeBrake: 0
+# motorname_openLoopRamp: 0
+# motorname_closedLoopRamp: 0
+# motorname_supplyCurrentLimitEnable: True
+# motorname_supplyCurrentLimit: 40
+# motorname_supplyCurrentLimitThresholdCurrent: 0
+# motorname_supplyCurrentLimitThresholdTime: 0
+# motorname_statorCurrentLimitEnable: False
+# motorname_statorCurrentLimit: 0
+# motorname_statorCurrentLimitThresholdCurrent: 0
+# motorname_statorCurrentLimitThresholdTime:  0
+# motorname_followingEnabled: False
+# motorname_followerId: 0
+# motorname_forwardLimitSwitchEnabled: False
+# motorname_reverseLimitSwitchEnabled: False
+# motorname_forwardLimitSwitchSourceType: 0
+# motorname_reverseLimitSwitchSourceType: 0
+# motorname_forwardLimitSwitchNormallyClosed: False
+# motorname_reverseLimitSwitchNormallyClosed: False
+# motorname_peakOutputForward: 0
+# motorname_peakOutputReverse: 0
