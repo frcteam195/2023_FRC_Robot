@@ -16,7 +16,8 @@ voltage_comp_enabled: true    #Voltage compensation enabled
 
 brake_mode_default: false
 
-wheel_diameter_inches: 4.0025
+# wheel_diameter_inches: 4.0025
+wheel_diameter_inches: 3.9
 robot_track_width_inches: 25.625
 robot_track_length_inches: 25.625
 robot_linear_inertia: 68  #Linear inertia = Weight in kg

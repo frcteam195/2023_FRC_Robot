@@ -1,0 +1,151 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+####################################################
+## MOTOR CONFIGS BELOW
+####################################################
+
+intake_motor_id: 11
+intake_fast_master: False
+intake_kP: 0
+intake_kI: 0
+intake_kD: 0
+intake_kF: 0
+intake_iZone: 0
+intake_maxIAccum: 0
+intake_allowedClosedLoopError: 0
+intake_maxClosedLoopPeakOutput: 0
+intake_motionCruiseVelocity: 0
+intake_motionCruiseAcceleration: 0
+intake_motionSCurveStrength: 0
+intake_forwardSoftLimit: 0
+intake_forwardSoftLimitEnable: False
+intake_reverseSoftLimit: 0
+intake_reverseSoftLimitEnable: False
+intake_feedbackSensorCoefficient: 0
+intake_voltageCompensationSaturation: 12
+intake_voltageCompensationEnabled: True
+intake_inverted: False
+intake_sensorPhaseInverted: False
+intake_neutralModeBrake: False
+intake_openLoopRamp: 0
+intake_closedLoopRamp: 0
+intake_supplyCurrentLimitEnable: True
+intake_supplyCurrentLimit: 40
+intake_supplyCurrentLimitThresholdCurrent: 0
+intake_supplyCurrentLimitThresholdTime: 0
+intake_statorCurrentLimitEnable: False
+intake_statorCurrentLimit: 0
+intake_statorCurrentLimitThresholdCurrent: 0
+intake_statorCurrentLimitThresholdTime:  0
+intake_followingEnabled: False
+intake_followerId: 0
+intake_forwardLimitSwitchEnabled: False
+intake_reverseLimitSwitchEnabled: False
+intake_forwardLimitSwitchSourceType: 0
+intake_reverseLimitSwitchSourceType: 0
+intake_forwardLimitSwitchNormallyClosed: False
+intake_reverseLimitSwitchNormallyClosed: False
+intake_peakOutputForward: 0
+intake_peakOutputReverse: 0
+
+wrist_motor_id: 12
+wrist_fast_master: False
+wrist_kP: 0
+wrist_kI: 0
+wrist_kD: 0
+wrist_kF: 0
+wrist_iZone: 0
+wrist_maxIAccum: 0
+wrist_allowedClosedLoopError: 0
+wrist_maxClosedLoopPeakOutput: 0
+wrist_motionCruiseVelocity: 0
+wrist_motionCruiseAcceleration: 0
+wrist_motionSCurveStrength: 0
+wrist_forwardSoftLimit: 0
+wrist_forwardSoftLimitEnable: False
+wrist_reverseSoftLimit: 0
+wrist_reverseSoftLimitEnable: False
+wrist_feedbackSensorCoefficient: 0
+wrist_voltageCompensationSaturation: 12
+wrist_voltageCompensationEnabled: True
+wrist_inverted: False
+wrist_sensorPhaseInverted: False
+wrist_neutralModeBrake: 0
+wrist_openLoopRamp: 0
+wrist_closedLoopRamp: 0
+wrist_supplyCurrentLimitEnable: True
+wrist_supplyCurrentLimit: 40
+wrist_supplyCurrentLimitThresholdCurrent: 0
+wrist_supplyCurrentLimitThresholdTime: 0
+wrist_statorCurrentLimitEnable: False
+wrist_statorCurrentLimit: 0
+wrist_statorCurrentLimitThresholdCurrent: 0
+wrist_statorCurrentLimitThresholdTime:  0
+wrist_followingEnabled: False
+wrist_followerId: 0
+wrist_forwardLimitSwitchEnabled: False
+wrist_reverseLimitSwitchEnabled: False
+wrist_forwardLimitSwitchSourceType: 0
+wrist_reverseLimitSwitchSourceType: 0
+wrist_forwardLimitSwitchNormallyClosed: False
+wrist_reverseLimitSwitchNormallyClosed: False
+wrist_peakOutputForward: 0
+wrist_peakOutputReverse: 0
+
+# Sample Motor Configuration
+# ALL VALUES MUST BE PRESENT OR THE MOTOR CONFIGURATOR WILL THROW AN EXCEPTION AND REJECT THE CONFIG
+# motorname_motor_id: 0  #### << MAKE SURE YOU SET THIS AT A MINIMUM
+# motorname_fast_master: False
+# motorname_kP: 0
+# motorname_kI: 0
+# motorname_kD: 0
+# motorname_kF: 0
+# motorname_iZone: 0
+# motorname_maxIAccum: 0
+# motorname_allowedClosedLoopError: 0
+# motorname_maxClosedLoopPeakOutput: 0
+# motorname_motionCruiseVelocity: 0
+# motorname_motionCruiseAcceleration: 0
+# motorname_motionSCurveStrength: 0
+# motorname_forwardSoftLimit: 0
+# motorname_forwardSoftLimitEnable: False
+# motorname_reverseSoftLimit: 0
+# motorname_reverseSoftLimitEnable: False
+# motorname_feedbackSensorCoefficient: 0
+# motorname_voltageCompensationSaturation: 12
+# motorname_voltageCompensationEnabled: True
+# motorname_inverted: False
+# motorname_sensorPhaseInverted: False
+# motorname_neutralModeBrake: 0
+# motorname_openLoopRamp: 0
+# motorname_closedLoopRamp: 0
+# motorname_supplyCurrentLimitEnable: True
+# motorname_supplyCurrentLimit: 40
+# motorname_supplyCurrentLimitThresholdCurrent: 0
+# motorname_supplyCurrentLimitThresholdTime: 0
+# motorname_statorCurrentLimitEnable: False
+# motorname_statorCurrentLimit: 0
+# motorname_statorCurrentLimitThresholdCurrent: 0
+# motorname_statorCurrentLimitThresholdTime:  0
+# motorname_followingEnabled: False
+# motorname_followerId: 0
+# motorname_forwardLimitSwitchEnabled: False
+# motorname_reverseLimitSwitchEnabled: False
+# motorname_forwardLimitSwitchSourceType: 0
+# motorname_reverseLimitSwitchSourceType: 0
+# motorname_forwardLimitSwitchNormallyClosed: False
+# motorname_reverseLimitSwitchNormallyClosed: False
+# motorname_peakOutputForward: 0
+# motorname_peakOutputReverse: 0
