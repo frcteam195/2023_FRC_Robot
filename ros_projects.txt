@@ -12,6 +12,7 @@ git@github.com:frcteam195/frc_robot_utilities_py_node.git
 git@github.com:frcteam195/dashboard_interface_2023_node.git
 git@github.com:frcteam195/ck_ros_base_msgs_node.git
 git@github.com:frcteam195/ck_ros_msgs_2023_node.git
+git@github.com:frcteam195/ck_ros_base_msgs_node.git
 git@github.com:frcteam195/limelight_vision_2023_node.git
 git@github.com:frcteam195/trajectories_2023.git
 git@github.com:frcteam195/led_control_2023_node.git
