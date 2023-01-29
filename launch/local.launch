@@ -13,33 +13,15 @@
     <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/swerve_drivetrain_node.yaml" />
   </node>
 
-  <!-- <node name="field_element_publisher_py_node" pkg="field_element_publisher_py_node" type="field_element_publisher_py_node" clear_params="true" output="screen">
-  </node> -->
-
-
   <node name="ukf_se" pkg="robot_localization" type="ukf_localization_node" clear_params="true" output="screen">
     <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/robot_localization_ukf_local.yaml" />
   </node>
-
-  <!-- <node name="limelight_vision_node" pkg="limelight_vision_node" type="limelight_vision_node" clear_params="true" output="screen" /> -->
-
-  <!-- <node name="network_tables_node" pkg="network_tables_node" type="network_tables_node" clear_params="true" output="screen" respawn="true">
-    <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/network_tables_node_local.yaml" />
-  </node> -->
-
-  <!-- <node name="logger_node" pkg="logger_node" type="logger_node" clear_params="true" output="screen" respawn="true">
-  </node> -->
 
   <node name="joy_node" pkg="joy" type="joy_node" clear_params="true" output="screen">
     <rosparam param="dev">/dev/input/js0</rosparam>
     <rosparam param="autorepeat_rate">50</rosparam>
     <rosparam param="default_trig_val">true</rosparam>
   </node>
-
-  <!-- <node name="trajectory_generator_node" pkg="trajectory_generator_node" type="trajectory_generator_node" clear_params="true" output="screen" respawn="true">
-    <rosparam command="load" file="/mnt/working/2022_ROS_Robot/params/trajectory_generator_params.yaml" />
-  </node>
--->
 
   <node name="hmi_agent_node" pkg="hmi_agent_node" type="hmi_agent_node" clear_params="true" output="screen" respawn="true">
     <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/hmi_agent_node_drive_ruffy_split.yaml" />
@@ -50,13 +32,6 @@
 
   <node name="autonomous_node" pkg="autonomous_node" type="autonomous_node" clear_params="true" output="screen" respawn="true">
   </node>
-
-  <!-- <node name="hmi_agent_node" pkg="hmi_agent_node" type="hmi_agent_node" clear_params="true" output="screen" respawn="true">
-    <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/hmi_agent_node_drive_ruffy_single.yaml" />
-    <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/hmi_agent_node_arm_xbox.yaml" />
-    <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/hmi_agent_node_buttonbox1.yaml" />
-    <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/hmi_agent_node_buttonbox2.yaml" />
-  </node> -->
   
   <node name="field_publisher_node" pkg="field_publisher_node" type="field_publisher_node" clear_params="true" output="screen" respawn="true">
   </node>
