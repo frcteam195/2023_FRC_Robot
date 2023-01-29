@@ -9,7 +9,7 @@ drive_axis_deadband: 0.05
 drive_z_axis_deadband: 0.05
 
 #Buttons
-field_orient_button_id: 2
-robot_orient_button_id: 3
-brake_button_id: 1
-reset_odometry_button_id: 0
+driver_unpinch_button_id: 0
+driver_pinch_button_id: 1
+driver_intake_button_id: 2
+driver_outtake_button_id: 3

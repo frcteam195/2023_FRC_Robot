@@ -2,6 +2,11 @@
 
 
 # Buttons
-cube_request_button_id: 0
-cone_request_button_id: 1
+operator_pinch_button_id: 0
+operator_pinch_button_id: 1
+operator_outtake_button_id: 4
+operator_intake_button_id: 5
 party_mode_button_id: 7
+
+# POV
+led_control_pov_id: 0
