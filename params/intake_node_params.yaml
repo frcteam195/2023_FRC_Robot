@@ -9,8 +9,8 @@
 ####################################################
 ## SOLENOID CONFIGS BELOW
 ####################################################
-intake_solenoid_id: 6
-intake_solenoid_actuation_delay: 0.150
+pincher_solenoid_id: 6
+pincher_solenoid_actuation_delay: 0.150
 
 
 
