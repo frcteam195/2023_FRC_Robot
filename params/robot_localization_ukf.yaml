@@ -170,6 +170,17 @@ odom3_relative: false
 odom3_queue_size: 100
 odom3_nodelay: true
 
+odom4: /RobotIMURate
+odom4_config: [false,  false,  false,
+              false,  false,  false,
+              false,  false,  false,
+              false,  false,  true,
+              false,  false,  false]
+odom4_nodelay: true
+odom4_differential: false
+odom4_relative: false
+odom4_queue_size: 100
+
 # imu0: /RobotIMU
 # imu0_config: [false,  false,  false,
 #               false,  false,  false,
