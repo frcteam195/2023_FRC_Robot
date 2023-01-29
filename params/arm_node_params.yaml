@@ -1,21 +1,16 @@
+####################################################
+## SOLENOID CONFIGS BELOW
+####################################################
+extension_solenoid_id: 5
+extension_solenoid_actuation_delay: 0.150
 
-
-
-
-
-
-
-
-
-
-
-
-
+####################################################
+## END SOLENOID CONFIGS
+####################################################
 
 ####################################################
 ## MOTOR CONFIGS BELOW
 ####################################################
-
 baseArmMaster_motor_id: 13
 baseArmMaster_fast_master: False
 baseArmMaster_kP: 0
