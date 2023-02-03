@@ -5,6 +5,7 @@ intake_axis_id: 3
 activation_threshold: 0.1
 
 # Buttons
+ground_button_id: -1
 mid_cone_button_id: 1
 high_cone_button_id: 3
 operator_unpinch_button_id: 4
