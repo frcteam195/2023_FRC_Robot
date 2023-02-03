@@ -5,10 +5,37 @@ intake_axis_id: 3
 activation_threshold: 0.1
 
 # Buttons
+mid_cube_button_id: 0
+high_cube_button_id: 2
 high_cone_button_id: 3
+in_bot_button_id: -1
+
 operator_unpinch_button_id: 4
 operator_pinch_button_id: 5
+
+hybrid_button_id: 6
+
 party_mode_button_id: 7
 
 # POV
 led_control_pov_id: 0
+
+# 0-a
+# 1-b
+# 2-x
+# 3-y
+# 4-lb
+# 5-rb
+# 6-2boxbtn
+# 7-menubtn
+
+# Trigger/axes
+# 0-lx
+# 1-ly
+# 2-lt
+# 3-rt
+# 4-rx
+# 5-ry
+
+#POV
+#id 0
