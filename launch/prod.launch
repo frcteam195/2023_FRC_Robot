@@ -42,8 +42,9 @@
     <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/hmi_agent_node_operator_xbox.yaml" />
   </node>
 
-  <node name="trajectory_generator_node" pkg="trajectory_generator_node" type="trajectory_generator_node" clear_params="true" output="screen" respawn="true">
-    <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/trajectory_generator_params.yaml" />
+  <node name="swerve_trajectory_node" pkg="swerve_trajectory_node" type="swerve_trajectory_node" clear_params="true" output="screen" respawn="true">
+    <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/swerve_trajectory_params.yaml" />
+    <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/swerve_drivetrain_node.yaml" />
   </node>
 
   <node name="intake_node" pkg="intake_node" type="intake_node" clear_params="true" output="screen" respawn="true">

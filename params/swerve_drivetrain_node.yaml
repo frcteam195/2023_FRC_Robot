@@ -8,6 +8,7 @@ steering_sensor_inverted: [false, false, false, false]
 robot_wheel_inches_from_center_x: [11.5, 11.5, -11.5, -11.5]
 robot_wheel_inches_from_center_y: [11.5, -11.5, 11.5, -11.5]
 robot_max_fwd_vel: 3.4 #m/s
+robot_max_fwd_accel: 4 #m/s^2
 robot_max_ang_vel: 6.5 #rad/s
 
 motor_type: 0    #0 = TalonFX, 1 = TalonSRX

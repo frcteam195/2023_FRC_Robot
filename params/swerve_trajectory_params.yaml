@@ -1,0 +1,8 @@
+max_acceleration: 80.0
+max_velocity: 115.0
+# max_acceleration: 10.0
+# max_velocity: 30.0
+max_voltage: 9.0
+
+# Make sure to end with a trailing slash.
+trajectory_directory: "/robot/trajectories/"
