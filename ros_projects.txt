@@ -22,3 +22,4 @@ git@github.com:frcteam195/autonomous_2023_node.git
 git@github.com:frcteam195/swerve_trajectory_node.git
 git@github.com:frcteam195/actions_2023_node.git
 git@github.com:frcteam195/limelight_logger_node.git
+git@github.com:frcteam195/joystick_simulation_node.git
