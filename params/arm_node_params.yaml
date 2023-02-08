@@ -188,6 +188,50 @@ upperArmFollower_reverseLimitSwitchNormallyClosed: False
 upperArmFollower_peakOutputForward: 0
 upperArmFollower_peakOutputReverse: 0
 
+wristMotor_motor_id: 17
+wristMotor_fast_master: False
+wristMotor_kP: 0
+wristMotor_kI: 0
+wristMotor_kD: 0
+wristMotor_kF: 0
+wristMotor_iZone: 0
+wristMotor_maxIAccum: 0
+wristMotor_allowedClosedLoopError: 0
+wristMotor_maxClosedLoopPeakOutput: 0
+wristMotor_motionCruiseVelocity: 0
+wristMotor_motionCruiseAcceleration: 0
+wristMotor_motionSCurveStrength: 0
+wristMotor_forwardSoftLimit: 0
+wristMotor_forwardSoftLimitEnable: False
+wristMotor_reverseSoftLimit: 0
+wristMotor_reverseSoftLimitEnable: False
+wristMotor_feedbackSensorCoefficient: 0
+wristMotor_voltageCompensationSaturation: 12
+wristMotor_voltageCompensationEnabled: True
+wristMotor_inverted: False
+wristMotor_sensorPhaseInverted: False
+wristMotor_neutralModeBrake: False
+wristMotor_openLoopRamp: 0
+wristMotor_closedLoopRamp: 0
+wristMotor_supplyCurrentLimitEnable: True
+wristMotor_supplyCurrentLimit: 30
+wristMotor_supplyCurrentLimitThresholdCurrent: 0
+wristMotor_supplyCurrentLimitThresholdTime: 0
+wristMotor_statorCurrentLimitEnable: False
+wristMotor_statorCurrentLimit: 0
+wristMotor_statorCurrentLimitThresholdCurrent: 0
+wristMotor_statorCurrentLimitThresholdTime:  0
+wristMotor_followingEnabled: False
+wristMotor_followerId: 0
+wristMotor_forwardLimitSwitchEnabled: False
+wristMotor_reverseLimitSwitchEnabled: False
+wristMotor_forwardLimitSwitchSourceType: 0
+wristMotor_reverseLimitSwitchSourceType: 0
+wristMotor_forwardLimitSwitchNormallyClosed: False
+wristMotor_reverseLimitSwitchNormallyClosed: False
+wristMotor_peakOutputForward: 0
+wristMotor_peakOutputReverse: 0
+
 # Sample Motor Configuration
 # ALL VALUES MUST BE PRESENT OR THE MOTOR CONFIGURATOR WILL THROW AN EXCEPTION AND REJECT THE CONFIG
 # motorname_motor_id: 0  #### << MAKE SURE YOU SET THIS AT A MINIMUM
