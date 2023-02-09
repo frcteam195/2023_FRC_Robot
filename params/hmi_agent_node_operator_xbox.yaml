@@ -15,6 +15,7 @@ operator_pinch_button_id: 5
 
 in_bot_button_id: 6
 party_mode_button_id: 7
+wrist_button_id: 8
 
 # POV
 led_control_pov_id: 0
