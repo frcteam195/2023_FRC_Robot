@@ -7,7 +7,7 @@ activation_threshold: 0.1
 # Buttons
 ground_intake_button_id: 0
 hybrid_node_button_id: 1
-mid_node_button_id: 2
+mid_node_button_id: 10 #should be 2
 high_node_button_id: 3
 
 operator_unpinch_button_id: 4
@@ -15,7 +15,9 @@ operator_pinch_button_id: 5
 
 in_bot_button_id: 6
 party_mode_button_id: 7
-wrist_button_id: 8
+wrist_left_90_button_id: 8
+wrist_straight_button_id: 9
+wrist_left_180_button_id: 2
 
 # POV
 led_control_pov_id: 0
