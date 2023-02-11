@@ -1,7 +1,13 @@
 ####################################################
 ## SOLENOID CONFIGS BELOW
 ####################################################
-extension_solenoid_id: 5
+base_brake_solenoid_id: 7
+brake_solenoid_actuation_delay: 0.150
+
+upper_brake_solenoid_id: 6
+upper_solenoid_actuation_delay: 0.150
+
+extension_solenoid_id: 8
 extension_solenoid_actuation_delay: 0.150
 
 ####################################################
@@ -11,7 +17,7 @@ extension_solenoid_actuation_delay: 0.150
 ####################################################
 ## MOTOR CONFIGS BELOW
 ####################################################
-baseArmMaster_motor_id: 13
+baseArmMaster_motor_id: 9
 baseArmMaster_fast_master: False
 baseArmMaster_kP: 0
 baseArmMaster_kI: 0
@@ -55,7 +61,7 @@ baseArmMaster_reverseLimitSwitchNormallyClosed: False
 baseArmMaster_peakOutputForward: 0
 baseArmMaster_peakOutputReverse: 0
 
-baseArmFollower_motor_id: 14
+baseArmFollower_motor_id: 10
 baseArmFollower_fast_master: False
 baseArmFollower_kP: 0
 baseArmFollower_kI: 0
@@ -99,7 +105,7 @@ baseArmFollower_reverseLimitSwitchNormallyClosed: False
 baseArmFollower_peakOutputForward: 0
 baseArmFollower_peakOutputReverse: 0
 
-upperArmMaster_motor_id: 15
+upperArmMaster_motor_id: 11
 upperArmMaster_fast_master: False
 upperArmMaster_kP: 0
 upperArmMaster_kI: 0
@@ -144,7 +150,7 @@ upperArmMaster_peakOutputForward: 0
 upperArmMaster_peakOutputReverse: 0
 
 
-upperArmFollower_motor_id: 16
+upperArmFollower_motor_id: 12
 upperArmFollower_fast_master: False
 upperArmFollower_kP: 0
 upperArmFollower_kI: 0
@@ -188,7 +194,7 @@ upperArmFollower_reverseLimitSwitchNormallyClosed: False
 upperArmFollower_peakOutputForward: 0
 upperArmFollower_peakOutputReverse: 0
 
-wristMotor_motor_id: 17
+wristMotor_motor_id: 13
 wristMotor_fast_master: False
 wristMotor_kP: 0
 wristMotor_kI: 0

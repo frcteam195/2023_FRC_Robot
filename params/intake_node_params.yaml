@@ -1,7 +1,7 @@
 ####################################################
 ## SOLENOID CONFIGS BELOW
 ####################################################
-pincher_solenoid_id: 6
+pincher_solenoid_id: 9
 pincher_solenoid_actuation_delay: 0.150
 
 ####################################################
@@ -11,7 +11,7 @@ pincher_solenoid_actuation_delay: 0.150
 ####################################################
 ## MOTOR CONFIGS BELOW
 ####################################################
-intake_motor_id: 11
+intake_motor_id: 14
 intake_fast_master: False
 intake_kP: 0
 intake_kI: 0
@@ -55,49 +55,50 @@ intake_reverseLimitSwitchNormallyClosed: False
 intake_peakOutputForward: 0
 intake_peakOutputReverse: 0
 
-wrist_motor_id: 12
-wrist_fast_master: False
-wrist_kP: 0
-wrist_kI: 0
-wrist_kD: 0
-wrist_kF: 0
-wrist_iZone: 0
-wrist_maxIAccum: 0
-wrist_allowedClosedLoopError: 0
-wrist_maxClosedLoopPeakOutput: 0
-wrist_motionCruiseVelocity: 0
-wrist_motionCruiseAcceleration: 0
-wrist_motionSCurveStrength: 0
-wrist_forwardSoftLimit: 0
-wrist_forwardSoftLimitEnable: False
-wrist_reverseSoftLimit: 0
-wrist_reverseSoftLimitEnable: False
-wrist_feedbackSensorCoefficient: 0
-wrist_voltageCompensationSaturation: 12
-wrist_voltageCompensationEnabled: True
-wrist_inverted: False
-wrist_sensorPhaseInverted: False
-wrist_neutralModeBrake: 0
-wrist_openLoopRamp: 0
-wrist_closedLoopRamp: 0
-wrist_supplyCurrentLimitEnable: True
-wrist_supplyCurrentLimit: 40
-wrist_supplyCurrentLimitThresholdCurrent: 0
-wrist_supplyCurrentLimitThresholdTime: 0
-wrist_statorCurrentLimitEnable: False
-wrist_statorCurrentLimit: 0
-wrist_statorCurrentLimitThresholdCurrent: 0
-wrist_statorCurrentLimitThresholdTime:  0
-wrist_followingEnabled: False
-wrist_followerId: 0
-wrist_forwardLimitSwitchEnabled: False
-wrist_reverseLimitSwitchEnabled: False
-wrist_forwardLimitSwitchSourceType: 0
-wrist_reverseLimitSwitchSourceType: 0
-wrist_forwardLimitSwitchNormallyClosed: False
-wrist_reverseLimitSwitchNormallyClosed: False
-wrist_peakOutputForward: 0
-wrist_peakOutputReverse: 0
+# Wrist has moved to arm node
+# wrist_motor_id: 12
+# wrist_fast_master: False
+# wrist_kP: 0
+# wrist_kI: 0
+# wrist_kD: 0
+# wrist_kF: 0
+# wrist_iZone: 0
+# wrist_maxIAccum: 0
+# wrist_allowedClosedLoopError: 0
+# wrist_maxClosedLoopPeakOutput: 0
+# wrist_motionCruiseVelocity: 0
+# wrist_motionCruiseAcceleration: 0
+# wrist_motionSCurveStrength: 0
+# wrist_forwardSoftLimit: 0
+# wrist_forwardSoftLimitEnable: False
+# wrist_reverseSoftLimit: 0
+# wrist_reverseSoftLimitEnable: False
+# wrist_feedbackSensorCoefficient: 0
+# wrist_voltageCompensationSaturation: 12
+# wrist_voltageCompensationEnabled: True
+# wrist_inverted: False
+# wrist_sensorPhaseInverted: False
+# wrist_neutralModeBrake: 0
+# wrist_openLoopRamp: 0
+# wrist_closedLoopRamp: 0
+# wrist_supplyCurrentLimitEnable: True
+# wrist_supplyCurrentLimit: 40
+# wrist_supplyCurrentLimitThresholdCurrent: 0
+# wrist_supplyCurrentLimitThresholdTime: 0
+# wrist_statorCurrentLimitEnable: False
+# wrist_statorCurrentLimit: 0
+# wrist_statorCurrentLimitThresholdCurrent: 0
+# wrist_statorCurrentLimitThresholdTime:  0
+# wrist_followingEnabled: False
+# wrist_followerId: 0
+# wrist_forwardLimitSwitchEnabled: False
+# wrist_reverseLimitSwitchEnabled: False
+# wrist_forwardLimitSwitchSourceType: 0
+# wrist_reverseLimitSwitchSourceType: 0
+# wrist_forwardLimitSwitchNormallyClosed: False
+# wrist_reverseLimitSwitchNormallyClosed: False
+# wrist_peakOutputForward: 0
+# wrist_peakOutputReverse: 0
 
 # Sample Motor Configuration
 # ALL VALUES MUST BE PRESENT OR THE MOTOR CONFIGURATOR WILL THROW AN EXCEPTION AND REJECT THE CONFIG
