@@ -1,12 +1,12 @@
 gear_ratio_to_output_shaft: [
   # Motor 1 Drive 8.14
-  8.14,
+  6.75,
   # Motor 2 Drive
-  8.14,
+  6.75,
   # Motor 3 Drive
-  8.14,
+  6.75,
   # Motor 4 Drive
-  8.14,
+  6.75,
   # Motor 5 Steering 50/14 * 60/10
   1.0, #21.4285714286,
   # Motor 6 Steering
