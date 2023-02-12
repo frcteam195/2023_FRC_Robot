@@ -15,29 +15,29 @@ gear_ratio_to_output_shaft: [
   1.0, #21.4285714286,
   # Motor 8 Steering
   1.0, #21.4285714286,
-  # Motor 9 Front Belt
+  # Motor 9 Lower Arm Master
+  19.333333333,
+  # Motor 10 Lower Arm Slave
+  19.333333333,
+  # Motor 11 Upper Arm Master
   1.0,
-  # Motor 10 Back Belt
+  # Motor 12 Upper Arm Slave
   1.0,
-  # Motor 11 Uptake
-  3.0,
-  # Motor 12  Climber 50/10 * 46/24
+  # Motor 13 Wrist
+  100,
+  # Motor 14
   9.5833333333,
-  # Motor 13 Climber
+  # Motor 15
   9.5833333333,
-  # Motor 14 Climber
-  9.5833333333,
-  # Motor 15 Climber
-  9.5833333333,
-  # Motor 16 Shooter (36 / 17)
+  # Motor 16
   2.1176470588,
-  # Motor 17 Shooter Slave
+  # Motor 17
   2.1176470588,
-  # Motor 18 turret yaw - 215/24*3/1
+  # Motor 18
   26.875,
-  # Motor 19 turret hood  580/14 * 50/10
+  # Motor 19
   207.1428571429,
-  # Motor 20 N/A
+  # Motor 20
   1.0,
 ]
 
@@ -59,11 +59,11 @@ motor_ticks_per_revolution: [
   # Motor 8
   4096.0,
   # Motor 9
-  2048.0,
+  4096.0,
   # Motor 10
   2048.0,
   # Motor 11
-  2048.0,
+  4096.0,
   # Motor 12
   2048.0,
   # Motor 13
