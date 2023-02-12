@@ -1,11 +1,11 @@
 <launch>
-  <include file="/mnt/working/2023_FRC_Robot/launch/static_transforms.launch"/>
+  <!-- <include file="/mnt/working/2023_FRC_Robot/launch/static_transforms.launch"/> -->
 
   <node name="light_sim_rio_control_node" pkg="light_sim_rio_control_node" type="light_sim_rio_control_node" clear_params="true" output="screen">
     <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/rio_control_node.yaml" />
   </node>
 
-  <node name="swerve_trajectory_node" pkg="swerve_trajectory_node" type="swerve_trajectory_node" clear_params="true" output="screen" respawn="true">
+  <!-- <node name="swerve_trajectory_node" pkg="swerve_trajectory_node" type="swerve_trajectory_node" clear_params="true" output="screen" respawn="true">
     <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/swerve_trajectory_params.yaml" />
     <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/swerve_drivetrain_node.yaml" />
   </node>
@@ -27,9 +27,9 @@
   </node>
 
   <node name="autonomous_node" pkg="autonomous_node" type="autonomous_node" clear_params="true" output="screen" respawn="true">
-  </node>
+  </node> -->
 
-  <node name="field_publisher_node" pkg="field_publisher_node" type="field_publisher_node" clear_params="true" output="screen" respawn="true">
+  <!-- <node name="field_publisher_node" pkg="field_publisher_node" type="field_publisher_node" clear_params="true" output="screen" respawn="true">
   </node>
 
   <node name="health_monitor_node" pkg="health_monitor_node" type="health_monitor_node" clear_params="true" output="screen" respawn="true">
@@ -40,12 +40,12 @@
 
   <node name="intake_node" pkg="intake_node" type="intake_node" clear_params="true" output="screen" respawn="true">
     <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/intake_node_params.yaml" />
-  </node>
+  </node> -->
 
   <node name="arm_node" pkg="arm_node" type="arm_node" clear_params="true" output="screen" respawn="true">
       <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/arm_node_params.yaml" />
   </node>
 
-  <node name="joystick_simulation_node" pkg="joystick_simulation_node" type="joystick_simulation_node" clear_params="true" output="screen" respawn="true">
-  </node>
+  <!-- <node name="joystick_simulation_node" pkg="joystick_simulation_node" type="joystick_simulation_node" clear_params="true" output="screen" respawn="true">
+  </node> -->
 </launch>
