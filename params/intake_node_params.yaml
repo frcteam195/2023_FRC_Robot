@@ -1,7 +1,7 @@
 ####################################################
 ## SOLENOID CONFIGS BELOW
 ####################################################
-pincher_solenoid_id: 9
+pincher_solenoid_id: 257
 pincher_solenoid_actuation_delay: 0.150
 
 ####################################################
