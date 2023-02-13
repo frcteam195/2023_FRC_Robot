@@ -2,12 +2,15 @@
 ## SOLENOID CONFIGS BELOW
 ####################################################
 base_brake_solenoid_id: 7
+base_brake_module_id: 0
 base_brake_solenoid_actuation_delay: 0.150
 
 upper_brake_solenoid_id: 6
+upper_brake_module_id: 0
 upper_brake_solenoid_actuation_delay: 0.150
 
-extension_solenoid_id: 256
+extension_solenoid_id: 0
+extension_module_id: 1
 extension_solenoid_actuation_delay: 0.150
 
 ####################################################
