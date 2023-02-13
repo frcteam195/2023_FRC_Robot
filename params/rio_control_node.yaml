@@ -26,7 +26,7 @@ gear_ratio_to_output_shaft: [
   # Motor 13 Wrist
   100,
   # Motor 14
-  8.0,
+  6.25,
   # Motor 15
   1.0,
   # Motor 16
