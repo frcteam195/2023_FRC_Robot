@@ -8,9 +8,15 @@ This is the main robot project. All nodes used in the robot should be defined in
 
 ### Robot Nodes
 
+[PathCobbler](https://github.com/frcteam195/PathCobbler.git)
+
+[actions_2023_node](https://github.com/frcteam195/actions_2023_node.git)
+
 [arm_2023_node](https://github.com/frcteam195/arm_2023_node.git)
 
 [autonomous_2023_node](https://github.com/frcteam195/autonomous_2023_node.git)
+
+[ck_ros_base_msgs_node](https://github.com/frcteam195/ck_ros_base_msgs_node.git)
 
 [ck_ros_msgs_2023_node](https://github.com/frcteam195/ck_ros_msgs_2023_node.git)
 
@@ -32,9 +38,13 @@ This is the main robot project. All nodes used in the robot should be defined in
 
 [intake_2023_node](https://github.com/frcteam195/intake_2023_node.git)
 
+[joystick_simulation_node](https://github.com/frcteam195/joystick_simulation_node.git)
+
 [led_control_2023_node](https://github.com/frcteam195/led_control_2023_node.git)
 
 [light_sim_rio_control_node](https://github.com/frcteam195/light_sim_rio_control_node.git)
+
+[limelight_logger_node](https://github.com/frcteam195/limelight_logger_node.git)
 
 [limelight_vision_2023_node](https://github.com/frcteam195/limelight_vision_2023_node.git)
 
@@ -46,9 +56,9 @@ This is the main robot project. All nodes used in the robot should be defined in
 
 [swerve_drivetrain_node](https://github.com/frcteam195/swerve_drivetrain_node.git)
 
-[trajectories_2023](https://github.com/frcteam195/trajectories_2023.git)
+[swerve_trajectory_node](https://github.com/frcteam195/swerve_trajectory_node.git)
 
-[trajectory_generator_node](https://github.com/frcteam195/trajectory_generator_node.git)
+[trajectories_2023](https://github.com/frcteam195/trajectories_2023.git)
 
 
 
