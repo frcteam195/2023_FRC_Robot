@@ -15,8 +15,8 @@
 
   <!-- <node name="limelight_vision_node" pkg="limelight_vision_node" type="limelight_vision_node" clear_params="true" output="screen" /> -->
 
-  <node name="limelight_logger_node" pkg="limelight_logger_node" type="limelight_logger_node" clear_params="true" output="screen" respawn="true">
-  </node>
+  <!-- <node name="limelight_logger_node" pkg="limelight_logger_node" type="limelight_logger_node" clear_params="true" output="screen" respawn="true">
+  </node> -->
 
   <node name="autonomous_node" pkg="autonomous_node" type="autonomous_node" clear_params="true" output="screen" respawn="true">
   </node>
