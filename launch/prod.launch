@@ -13,7 +13,10 @@
     <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/robot_localization_ukf.yaml" />
   </node>
 
-  <!-- <node name="limelight_vision_node" pkg="limelight_vision_node" type="limelight_vision_node" clear_params="true" output="screen" /> -->
+  <node name="limelight_vision_node" pkg="limelight_vision_node" type="limelight_vision_node" clear_params="true" output="screen" />
+
+  <node name="field_publisher_node" pkg="field_publisher_node" type="field_publisher_node" clear_params="true" output="screen" respawn="true">
+  </node>
 
   <node name="limelight_logger_node" pkg="limelight_logger_node" type="limelight_logger_node" clear_params="true" output="screen" respawn="true">
   </node>
