@@ -18,8 +18,8 @@
   <node name="field_publisher_node" pkg="field_publisher_node" type="field_publisher_node" clear_params="true" output="screen" respawn="true">
   </node>
 
-  <node name="limelight_logger_node" pkg="limelight_logger_node" type="limelight_logger_node" clear_params="true" output="screen" respawn="true">
-  </node>
+  <!-- <node name="limelight_logger_node" pkg="limelight_logger_node" type="limelight_logger_node" clear_params="true" output="screen" respawn="true">
+  </node> -->
 
   <node name="autonomous_node" pkg="autonomous_node" type="autonomous_node" clear_params="true" output="screen" respawn="true">
   </node>
