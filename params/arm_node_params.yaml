@@ -122,7 +122,8 @@ upperArmMaster_maxClosedLoopPeakOutput: 0
 upperArmMaster_motionCruiseVelocity: 200
 upperArmMaster_motionCruiseAcceleration: 650
 upperArmMaster_motionSCurveStrength: 7
-upperArmMaster_forwardSoftLimit: -0.159423828125
+# upperArmMaster_forwardSoftLimit: -0.159423828125
+upperArmMaster_forwardSoftLimit: -0.140
 upperArmMaster_forwardSoftLimitEnable: True
 #Home -0.5
 upperArmMaster_reverseSoftLimit: -0.855224609375
