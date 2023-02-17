@@ -1,5 +1,5 @@
 <launch>
-  <node name="swerve_trajectory_node" pkg="swerve_trajectory_node" type="swerve_trajectory_node" clear_params="true" output="screen" respawn="true">
+  <node name="swerve_trajectory_node" pkg="swerve_trajectory_node" type="swerve_trajectory_node" clear_params="true" output="screen" respawn="false">
     <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/swerve_trajectory_params.yaml" />
     <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/swerve_drivetrain_node.yaml" />
   </node>
