@@ -12,3 +12,6 @@ drive_z_axis_deadband: 0.05
 reset_odometry_button_id: 0
 robot_orient_button_id: 2
 field_centric_button_id: 3
+
+#POV
+wrist_pov_id: 0
