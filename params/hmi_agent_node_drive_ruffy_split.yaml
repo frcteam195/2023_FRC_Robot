@@ -3,7 +3,7 @@ drive_fwd_back_axis_id: 1
 drive_fwd_back_axis_inverted: false
 drive_left_right_axis_id: 0
 drive_left_right_axis_inverted: true
-drive_z_axis_id: 5
+drive_z_axis_id: 3
 drive_z_axis_inverted: true
 drive_axis_deadband: 0.05
 drive_z_axis_deadband: 0.05
