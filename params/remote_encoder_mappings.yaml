@@ -1,3 +1,3 @@
-motor_ids_to_override_encoder: [ 5,  6,  7,  8,   9,                      11] # front left, front right, back left, back right
-remote_encoder_ids:            [25, 26, 27, 28,  29,                      31]
-rotations_offset_to_zero:      [ 0,  0,  0,  0,  -0.022402006267613173, -0.5]
+motor_ids_to_override_encoder: [ 5,  6, 7, 8, 9, 11] # front left, front right, back left, back right
+remote_encoder_ids:            [25, 26, 27, 28, 29, 31]
+rotations_offset_to_zero:      [0.0, 0.0, 0.0, 0.0, -0.022402006267613173, -0.5]
