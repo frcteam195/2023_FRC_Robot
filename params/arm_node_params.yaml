@@ -126,7 +126,7 @@ upperArmMaster_motionSCurveStrength: 7
 upperArmMaster_forwardSoftLimit: -0.140
 upperArmMaster_forwardSoftLimitEnable: True
 #Home -0.5
-upperArmMaster_reverseSoftLimit: -0.855224609375
+upperArmMaster_reverseSoftLimit: -0.88
 upperArmMaster_reverseSoftLimitEnable: True
 upperArmMaster_feedbackSensorCoefficient: 0
 upperArmMaster_voltageCompensationSaturation: 12
