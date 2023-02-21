@@ -149,7 +149,7 @@ odom1_queue_size: 100
 # Further input parameter examples
 # odom2: /LimelightOdometry
 # odom2_config: [true,  true,  false,
-#                false, false, true,
+#                false, false, false,
 #                false, false, false,
 #                false, false, false,
 #                false, false, false]
