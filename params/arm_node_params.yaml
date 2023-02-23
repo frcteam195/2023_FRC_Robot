@@ -13,6 +13,10 @@ extension_solenoid_id: 0
 extension_module_id: 1
 extension_solenoid_actuation_delay: 0.150
 
+extension2_solenoid_id: 2
+extension2_module_id: 1
+extension2_solenoid_actuation_delay: 0.150
+
 ####################################################
 ## END SOLENOID CONFIGS
 ####################################################
