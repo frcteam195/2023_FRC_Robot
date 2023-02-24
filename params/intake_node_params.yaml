@@ -18,6 +18,11 @@ intake_kP: 0
 intake_kI: 0
 intake_kD: 0
 intake_kF: 0
+intake_kP_1: 0
+intake_kI_1: 0
+intake_kD_1: 0
+intake_kF_1: 0
+intake_activeGainSlot: 0
 intake_iZone: 0
 intake_maxIAccum: 0
 intake_allowedClosedLoopError: 0

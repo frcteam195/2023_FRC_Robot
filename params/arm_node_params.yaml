@@ -30,6 +30,11 @@ baseArmMaster_kP: 0.524
 baseArmMaster_kI: 0
 baseArmMaster_kD: 0.33
 baseArmMaster_kF: 0.242
+baseArmMaster_kP_1: 0
+baseArmMaster_kI_1: 0
+baseArmMaster_kD_1: 0
+baseArmMaster_kF_1: 0
+baseArmMaster_activeGainSlot: 0
 baseArmMaster_iZone: 0
 baseArmMaster_maxIAccum: 0
 baseArmMaster_allowedClosedLoopError: 0
@@ -75,6 +80,11 @@ baseArmFollower_kP: 0
 baseArmFollower_kI: 0
 baseArmFollower_kD: 0
 baseArmFollower_kF: 0
+baseArmFollower_kP_1: 0
+baseArmFollower_kI_1: 0
+baseArmFollower_kD_1: 0
+baseArmFollower_kF_1: 0
+baseArmFollower_activeGainSlot: 0
 baseArmFollower_iZone: 0
 baseArmFollower_maxIAccum: 0
 baseArmFollower_allowedClosedLoopError: 0
@@ -119,6 +129,11 @@ upperArmMaster_kP: 1.4
 upperArmMaster_kI: 0
 upperArmMaster_kD: 1.9
 upperArmMaster_kF: 4.21463871
+upperArmMaster_kP_1: 0
+upperArmMaster_kI_1: 0
+upperArmMaster_kD_1: 0
+upperArmMaster_kF_1: 0
+upperArmMaster_activeGainSlot: 0
 upperArmMaster_iZone: 0
 upperArmMaster_maxIAccum: 0
 upperArmMaster_allowedClosedLoopError: 0
@@ -166,6 +181,11 @@ upperArmFollower_kP: 0
 upperArmFollower_kI: 0
 upperArmFollower_kD: 0
 upperArmFollower_kF: 0
+upperArmFollower_kP_1: 0
+upperArmFollower_kI_1: 0
+upperArmFollower_kD_1: 0
+upperArmFollower_kF_1: 0
+upperArmFollower_activeGainSlot: 0
 upperArmFollower_iZone: 0
 upperArmFollower_maxIAccum: 0
 upperArmFollower_allowedClosedLoopError: 0
@@ -210,6 +230,11 @@ wristMotor_kP: 0.027
 wristMotor_kI: 0
 wristMotor_kD: 0.037
 wristMotor_kF: 0.0449122
+wristMotor_kP_1: 0
+wristMotor_kI_1: 0
+wristMotor_kD_1: 0
+wristMotor_kF_1: 0
+wristMotor_activeGainSlot: 0
 wristMotor_iZone: 0
 wristMotor_maxIAccum: 0
 wristMotor_allowedClosedLoopError: 0
@@ -256,6 +281,11 @@ wristMotor_peakOutputReverse: 0
 # motorname_kI: 0
 # motorname_kD: 0
 # motorname_kF: 0
+# motorname_kP_1: 0
+# motorname_kI_1: 0
+# motorname_kD_1: 0
+# motorname_kF_1: 0
+# motorname_activeGainSlot: 0
 # motorname_iZone: 0
 # motorname_maxIAccum: 0
 # motorname_allowedClosedLoopError: 0
