@@ -285,3 +285,5 @@ kappa: 0
 # [ADVANCED, UKF ONLY] The beta variable relates to the distribution of the state vector. Again, it's probably best to
 # leave this alone if you're uncertain. Defaults to 2 if unspecified.
 beta: 2
+
+publish_tf: False
