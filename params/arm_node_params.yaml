@@ -40,8 +40,8 @@ baseArmMaster_maxIAccum: 0
 baseArmMaster_allowedClosedLoopError: 0
 baseArmMaster_maxClosedLoopPeakOutput: 0
 baseArmMaster_motionCruiseVelocity: 3600
-baseArmMaster_motionCruiseAcceleration: 4600
-baseArmMaster_motionSCurveStrength: 7
+baseArmMaster_motionCruiseAcceleration: 3700
+baseArmMaster_motionSCurveStrength: 3
 baseArmMaster_forwardSoftLimit: 0.11312129207738376
 baseArmMaster_forwardSoftLimitEnable: True
 #Home -0.022402006267613173
@@ -125,10 +125,10 @@ baseArmFollower_peakOutputReverse: 0
 
 upperArmMaster_motor_id: 11
 upperArmMaster_fast_master: False
-upperArmMaster_kP: 1.4
+upperArmMaster_kP: 1.7
 upperArmMaster_kI: 0
-upperArmMaster_kD: 1.9
-upperArmMaster_kF: 4.21463871
+upperArmMaster_kD: 2.5
+upperArmMaster_kF: 4.31463871
 upperArmMaster_kP_1: 0
 upperArmMaster_kI_1: 0
 upperArmMaster_kD_1: 0
@@ -139,8 +139,8 @@ upperArmMaster_maxIAccum: 0
 upperArmMaster_allowedClosedLoopError: 0
 upperArmMaster_maxClosedLoopPeakOutput: 0
 upperArmMaster_motionCruiseVelocity: 200
-upperArmMaster_motionCruiseAcceleration: 650
-upperArmMaster_motionSCurveStrength: 7
+upperArmMaster_motionCruiseAcceleration: 450
+upperArmMaster_motionSCurveStrength: 1
 # upperArmMaster_forwardSoftLimit: -0.159423828125
 upperArmMaster_forwardSoftLimit: -0.140
 upperArmMaster_forwardSoftLimitEnable: True
