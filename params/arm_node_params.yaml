@@ -128,7 +128,7 @@ upperArmMaster_fast_master: False
 upperArmMaster_kP: 1.7
 upperArmMaster_kI: 0
 upperArmMaster_kD: 2.5
-upperArmMaster_kF: 4.31463871
+upperArmMaster_kF: 3.91463871
 upperArmMaster_kP_1: 0
 upperArmMaster_kI_1: 0
 upperArmMaster_kD_1: 0
