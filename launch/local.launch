@@ -33,7 +33,7 @@
   </node>
 
   <node name="health_monitor_node" pkg="health_monitor_node" type="health_monitor_node" clear_params="true" output="screen" respawn="true">
-    <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/health_monitor_node_params.yaml" />
+    <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/health_monitor_node_local_params.yaml" />
   </node>
 
   <node name="led_control_node" pkg="led_control_node" type="led_control_node" clear_params="true" output="screen" respawn="true">
