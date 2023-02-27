@@ -1,0 +1,11 @@
+
+node_checklist: [
+    "/arm_node",
+    "/intake_node",
+    "/swerve_drivetrain_node",
+    "/swerve_trajectory_node",
+    "/hmi_agent_node",
+    "/autonomous_node",
+    "/dashboard_interface_node",
+    "/ukf_se"
+]
