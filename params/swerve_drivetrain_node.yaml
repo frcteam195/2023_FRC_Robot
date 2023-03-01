@@ -10,7 +10,7 @@ robot_wheel_inches_from_center_y: [11.5, -11.5, 11.5, -11.5]
 robot_max_fwd_vel: 4.0 #m/s
 robot_max_fwd_accel: 4 #m/s^2
 robot_max_ang_vel: 8.0 #rad/s
-robot_max_fwd_vel_mult: 0.85
+robot_max_fwd_vel_mult: 0.7
 
 motor_type: 0    #0 = TalonFX, 1 = TalonSRX
 voltage_comp_saturation: 12.0   #Saturation voltage
