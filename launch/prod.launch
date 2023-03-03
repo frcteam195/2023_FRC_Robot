@@ -59,4 +59,5 @@
       <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/arm_node_params.yaml" />
   </node>
 
+  <include file="$(dirname)/moveit_test.launch"/>
 </launch>

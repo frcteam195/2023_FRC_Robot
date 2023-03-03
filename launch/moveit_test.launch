@@ -1,0 +1,45 @@
+<launch>
+  <!-- By default, we will load or override the robot_description -->
+  <arg name="load_robot_description" default="true"/>
+
+  <!-- Given the published joint states, publish tf for the robot links -->
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" respawn="true" output="screen" />
+
+  <!-- Run the main MoveIt! executable without trajectory execution (we do not have controllers configured by default) -->
+  <remap from="/follow_joint_trajectory" to="position_trajectory_controller/follow_joint_trajectory"/>
+
+  <arg name="moveit_controller_manager" default="ros_control" />
+  <include file="$(find knighttime_moveit_config_node)/launch/move_group.launch">
+    <arg name="allow_trajectory_execution" value="true"/>
+    <!-- <arg name="fake_execution" value="false"/> -->
+    <!-- <arg name="execution_type" value="interpolate"/> -->
+    <arg name="moveit_controller_manager" value="ros_control"/>
+    <arg name="info" value="true"/>
+    <arg name="load_robot_description" value="$(arg load_robot_description)"/>
+  </include>
+
+  <!-- Launch HW interface -->
+  <!-- Load URDF -->
+  <arg name="urdf_path" default="$(find knighttime_description_node)/urdf/knighttime_description.urdf"/>
+  <param name="robot_description" textfile="$(arg urdf_path)" />
+
+  <!-- Load hardware interface -->
+    <!-- <node name="robot_hardware_interface" pkg="ros_control_boilerplate" type="sim_hw_main"
+          output="screen" launch-prefix=""/> -->
+    <node name="knighttime_hardware_node" pkg="knighttime_hardware_node" type="knighttime_hardware_node" output="screen" launch-prefix=""/>
+
+  <!-- Load controller settings -->
+    <rosparam file="$(find knighttime_moveit_config_node)/config/knighttime_controllers.yaml" command="load"/>
+
+  <!-- Load controller manager -->
+    <node name="ros_control_controller_manager" pkg="controller_manager" type="controller_manager" respawn="false"
+      output="screen" args="spawn joint_state_controller velocity_trajectory_controller" />
+    <!-- <node name="ros_control_controller_manager" pkg="controller_manager" type="controller_manager" respawn="false"
+      output="screen" args="spawn joint_state_controller position_trajectory_controller" /> -->
+
+
+  <arg name="use_rviz" default="false" />
+  <include file="$(find knighttime_moveit_config_node)/launch/moveit_rviz.launch" if="$(arg use_rviz)">
+    <arg name="rviz_config" value="$(find knighttime_moveit_config_node)/launch/moveit.rviz"/>
+  </include>
+</launch>

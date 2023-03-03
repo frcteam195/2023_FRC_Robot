@@ -1,0 +1,6 @@
+<launch>
+  <arg name="use_rviz" default="true" />
+  <include file="$(find knighttime_moveit_config_node)/launch/moveit_rviz.launch" if="$(arg use_rviz)">
+    <arg name="rviz_config" value="$(find knighttime_moveit_config_node)/launch/moveit.rviz"/>
+  </include>
+</launch>
