@@ -32,10 +32,10 @@
     <rosparam file="$(find knighttime_moveit_config_node)/config/knighttime_controllers.yaml" command="load"/>
 
   <!-- Load controller manager -->
-    <node name="ros_control_controller_manager" pkg="controller_manager" type="controller_manager" respawn="false"
-      output="screen" args="spawn joint_state_controller velocity_trajectory_controller" />
     <!-- <node name="ros_control_controller_manager" pkg="controller_manager" type="controller_manager" respawn="false"
-      output="screen" args="spawn joint_state_controller position_trajectory_controller" /> -->
+      output="screen" args="spawn joint_state_controller velocity_trajectory_controller" /> -->
+    <node name="ros_control_controller_manager" pkg="controller_manager" type="controller_manager" respawn="false"
+      output="screen" args="spawn joint_state_controller position_trajectory_controller" />
 
 
   <arg name="use_rviz" default="false" />
