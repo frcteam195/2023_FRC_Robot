@@ -1,0 +1,16 @@
+<launch>
+  <node name="hmi_agent_node" pkg="hmi_agent_node" type="hmi_agent_node" clear_params="true" output="screen" respawn="true">
+    <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/hmi_agent_node_drive_ruffy_split.yaml" />
+    <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/hmi_agent_node_operator_split.yaml" />
+  </node>
+
+  <node name="arm_node" pkg="arm_node" type="arm_node" clear_params="true" output="screen" respawn="true">
+      <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/arm_node_params.yaml" />
+  </node>
+
+  <include file="$(dirname)/moveit_test.launch">
+    <arg name="use_rviz" value="true"/>
+  </include>
+
+  <node name="rqt_reconfigure" pkg="rqt_reconfigure" type="rqt_reconfigure" output="screen"/>
+</launch>
