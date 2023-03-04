@@ -1,4 +1,8 @@
 <launch>
+  <node name="ukf_se" pkg="robot_localization" type="ukf_localization_node" clear_params="true" output="screen">
+    <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/robot_localization_ukf_local.yaml" />
+  </node>
+
   <node name="hmi_agent_node" pkg="hmi_agent_node" type="hmi_agent_node" clear_params="true" output="screen" respawn="true">
     <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/hmi_agent_node_drive_ruffy_split.yaml" />
     <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/hmi_agent_node_operator_split.yaml" />
