@@ -136,7 +136,7 @@ odom0_relative: true
 # twist0_nodelay: false
 
 
-odom1: /RobotIMURate
+odom1: /RobotIMU
 odom1_config: [false,  false,  false,
               false,  false,  false,
               false,  false,  false,
