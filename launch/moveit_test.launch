@@ -8,6 +8,8 @@
   <!-- Run the main MoveIt! executable without trajectory execution (we do not have controllers configured by default) -->
   <remap from="/follow_joint_trajectory" to="position_trajectory_controller/follow_joint_trajectory"/>
 
+  <!-- <remap from="/joint_states" to="/arm/joint_states"/> -->
+
   <arg name="moveit_controller_manager" default="ros_control" />
   <include file="$(find knighttime_moveit_config_node)/launch/move_group.launch">
     <arg name="allow_trajectory_execution" value="true"/>
@@ -32,10 +34,10 @@
     <rosparam file="$(find knighttime_moveit_config_node)/config/knighttime_controllers.yaml" command="load"/>
 
   <!-- Load controller manager -->
-    <!-- <node name="ros_control_controller_manager" pkg="controller_manager" type="controller_manager" respawn="false"
-      output="screen" args="spawn joint_state_controller velocity_trajectory_controller" /> -->
     <node name="ros_control_controller_manager" pkg="controller_manager" type="controller_manager" respawn="false"
-      output="screen" args="spawn joint_state_controller position_trajectory_controller" />
+      output="screen" args="spawn joint_state_controller velocity_trajectory_controller" />
+    <!-- <node name="ros_control_controller_manager" pkg="controller_manager" type="controller_manager" respawn="false"
+      output="screen" args="spawn joint_state_controller position_trajectory_controller" /> -->
 
 
   <arg name="use_rviz" default="false" />
