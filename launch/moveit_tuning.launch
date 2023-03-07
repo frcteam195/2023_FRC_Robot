@@ -1,5 +1,5 @@
 <launch>
-  <node name="ukf_se" pkg="robot_localization" type="ukf_localization_node" clear_params="true" output="screen">
+  <!-- <node name="ukf_se" pkg="robot_localization" type="ukf_localization_node" clear_params="true" output="screen">
     <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/robot_localization_ukf_local.yaml" />
   </node>
 
@@ -10,11 +10,15 @@
 
   <node name="arm_node" pkg="arm_node" type="arm_node" clear_params="true" output="screen" respawn="true">
       <rosparam command="load" file="/mnt/working/2023_FRC_Robot/params/arm_node_params.yaml" />
-  </node>
+  </node> -->
 
-  <include file="$(dirname)/moveit_test.launch">
+  <!-- <include file="$(dirname)/moveit_test.launch">
     <arg name="use_rviz" value="true"/>
-  </include>
+  </include> -->
+
+  <include file="$(dirname)/moveit_rviz.launch"/>
 
   <node name="rqt_reconfigure" pkg="rqt_reconfigure" type="rqt_reconfigure" output="screen"/>
+
+  <node name="plotjuggler" pkg="plotjuggler" type="plotjuggler" output="screen"/>
 </launch>
