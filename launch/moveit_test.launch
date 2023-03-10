@@ -42,7 +42,7 @@
       output="screen" args="spawn joint_state_controller effort_trajectory_controller" />
 
 
-  <arg name="use_rviz" default="true" />
+  <arg name="use_rviz" default="false" />
   <include file="$(find knighttime_moveit_config_node)/launch/moveit_rviz.launch" if="$(arg use_rviz)">
     <arg name="rviz_config" value="$(find knighttime_moveit_config_node)/launch/moveit.rviz"/>
   </include>
