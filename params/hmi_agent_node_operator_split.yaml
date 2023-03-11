@@ -15,6 +15,10 @@ pickup_dead_cone_button_id: 10
 high_cube_button_id: 2
 mid_cube_button_id: 5
 pickup_cube_button_id: 8
+
+# LED Buttons
+led_toggle_id: 6
+
 # ---------------------------------
 
 # JOYSTICK
