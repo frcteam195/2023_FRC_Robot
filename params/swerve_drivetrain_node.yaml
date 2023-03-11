@@ -7,7 +7,7 @@ steering_motor_inverted: [true, true, true, true]
 steering_sensor_inverted: [false, false, false, false]
 robot_wheel_inches_from_center_x: [11.5, 11.5, -11.5, -11.5]
 robot_wheel_inches_from_center_y: [11.5, -11.5, 11.5, -11.5]
-robot_max_fwd_vel: 4.0 #m/s
+robot_max_fwd_vel: 5.0 #m/s
 robot_max_fwd_accel: 1.5 #m/s^2
 robot_max_ang_vel: 8.0 #rad/s
 robot_max_fwd_vel_mult: 0.8
