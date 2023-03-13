@@ -50,5 +50,5 @@
   <node name="joystick_simulation_node" pkg="joystick_simulation_node" type="joystick_simulation_node" clear_params="true" output="screen" respawn="true">
   </node>
 
-  <include file="$(dirname)/moveit_test.launch"/>
+  <!-- <include file="$(dirname)/moveit_test.launch"/> -->
 </launch>
