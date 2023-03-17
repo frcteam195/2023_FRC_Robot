@@ -32,6 +32,8 @@ intake_open_button_id: 2
 
 pre_score_position_button_id: 5
 
+robot_xmode_id: 10
+
 # POV
 led_control_pov_id: 0
 # ---------------------------------

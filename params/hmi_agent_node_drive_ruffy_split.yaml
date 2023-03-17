@@ -11,7 +11,7 @@ drive_z_axis_min_value_after_deadband: 0.09
 
 #Buttons
 reset_odometry_button_id: 0
-robot_align_to_grid: 1
+robot_xmode_id: 1
 robot_orient_button_id: 2
 field_centric_button_id: 3
 
