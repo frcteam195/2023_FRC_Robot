@@ -29,7 +29,7 @@ intake_out_button_id: 4
 
 intake_close_button_id: 1
 intake_open_button_id: 2
-
+toggle_reverse_side_button_id: 3
 pre_score_position_button_id: 5
 
 robot_xmode_id: 10
