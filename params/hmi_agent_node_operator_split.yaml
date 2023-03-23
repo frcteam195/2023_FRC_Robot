@@ -10,6 +10,7 @@ high_cone_button_id: 1
 mid_cone_button_id: 4
 pickup_cone_button_id: 7
 pickup_dead_cone_button_id: 10
+pre_dead_cone_button_id: 11
 
 # Cube Buttons
 high_cube_button_id: 2
