@@ -2,23 +2,24 @@
 # ---------------------------------
 # Buttons
 home_button_id: 0
-shelf_button_id: 3
-low_button_id: 9
 
 # Cone Buttons
 high_cone_button_id: 1
+shelf_cone_button_id: 3
 mid_cone_button_id: 4
 pickup_cone_button_id: 7
-pickup_dead_cone_button_id: 10
+pickup_dead_cone_button_id: 9
+low_cone_button_id: 10
 pre_dead_cone_button_id: 11
 
 # Cube Buttons
 high_cube_button_id: 2
 mid_cube_button_id: 5
+shelf_cube_button_id: 6
 pickup_cube_button_id: 8
+low_cube_button_id: 10
 
-# LED Buttons
-led_toggle_id: 6
+
 
 # ---------------------------------
 
@@ -28,13 +29,11 @@ led_toggle_id: 6
 intake_in_button_id: 0
 intake_out_button_id: 4
 
-intake_close_button_id: 1
-intake_open_button_id: 2
+# LED Buttons
+led_toggle_id: 2
+
 toggle_reverse_side_button_id: 3
 pre_score_position_button_id: 5
 
 robot_xmode_id: 10
 
-# POV
-led_control_pov_id: 0
-# ---------------------------------
