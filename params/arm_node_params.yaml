@@ -273,6 +273,55 @@ wristMotor_reverseLimitSwitchNormallyClosed: False
 wristMotor_peakOutputForward: 0
 wristMotor_peakOutputReverse: 0
 
+intake_motor_id: 14
+intake_fast_master: False
+intake_kP: 0
+intake_kI: 0
+intake_kD: 0
+intake_kF: 0
+intake_kP_1: 0
+intake_kI_1: 0
+intake_kD_1: 0
+intake_kF_1: 0
+intake_activeGainSlot: 0
+intake_iZone: 0
+intake_maxIAccum: 0
+intake_allowedClosedLoopError: 0
+intake_maxClosedLoopPeakOutput: 0
+intake_motionCruiseVelocity: 0
+intake_motionCruiseAcceleration: 0
+intake_motionSCurveStrength: 0
+intake_forwardSoftLimit: 0
+intake_forwardSoftLimitEnable: False
+intake_reverseSoftLimit: 0
+intake_reverseSoftLimitEnable: False
+intake_feedbackSensorCoefficient: 0
+intake_voltageCompensationSaturation: 12
+intake_voltageCompensationEnabled: True
+intake_inverted: False
+intake_sensorPhaseInverted: False
+intake_neutralModeBrake: False
+intake_openLoopRamp: 0
+intake_closedLoopRamp: 0
+intake_supplyCurrentLimitEnable: True
+intake_supplyCurrentLimit: 40
+intake_supplyCurrentLimitThresholdCurrent: 0
+intake_supplyCurrentLimitThresholdTime: 0
+intake_statorCurrentLimitEnable: False
+intake_statorCurrentLimit: 0
+intake_statorCurrentLimitThresholdCurrent: 0
+intake_statorCurrentLimitThresholdTime:  0
+intake_followingEnabled: False
+intake_followerId: 0
+intake_forwardLimitSwitchEnabled: False
+intake_reverseLimitSwitchEnabled: False
+intake_forwardLimitSwitchSourceType: 0
+intake_reverseLimitSwitchSourceType: 0
+intake_forwardLimitSwitchNormallyClosed: False
+intake_reverseLimitSwitchNormallyClosed: False
+intake_peakOutputForward: 0
+intake_peakOutputReverse: 0
+
 # Sample Motor Configuration
 # ALL VALUES MUST BE PRESENT OR THE MOTOR CONFIGURATOR WILL THROW AN EXCEPTION AND REJECT THE CONFIG
 # motorname_motor_id: 0  #### << MAKE SURE YOU SET THIS AT A MINIMUM

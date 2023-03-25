@@ -17,7 +17,6 @@ git@github.com:frcteam195/trajectories_2023.git
 git@github.com:frcteam195/led_control_2023_node.git
 git@github.com:frcteam195/health_monitor_2023_node.git
 git@github.com:frcteam195/arm_2023_node.git
-git@github.com:frcteam195/intake_2023_node.git
 git@github.com:frcteam195/autonomous_2023_node.git
 git@github.com:frcteam195/swerve_trajectory_node.git
 git@github.com:frcteam195/actions_2023_node.git
