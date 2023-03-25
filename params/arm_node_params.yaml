@@ -304,7 +304,7 @@ intake_neutralModeBrake: False
 intake_openLoopRamp: 0
 intake_closedLoopRamp: 0
 intake_supplyCurrentLimitEnable: True
-intake_supplyCurrentLimit: 40
+intake_supplyCurrentLimit: 20
 intake_supplyCurrentLimitThresholdCurrent: 0
 intake_supplyCurrentLimitThresholdTime: 0
 intake_statorCurrentLimitEnable: False
