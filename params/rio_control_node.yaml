@@ -67,7 +67,7 @@ motor_ticks_per_revolution: [
   # Motor 12
   2048.0,
   # Motor 13
-  2048.0,
+  4096.0,
   # Motor 14
   2048.0,
   # Motor 15

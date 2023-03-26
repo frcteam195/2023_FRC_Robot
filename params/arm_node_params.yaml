@@ -226,10 +226,10 @@ upperArmFollower_peakOutputReverse: 0
 
 wristMotor_motor_id: 13
 wristMotor_fast_master: False
-wristMotor_kP: 0.027
+wristMotor_kP: 1.7
 wristMotor_kI: 0
-wristMotor_kD: 0.037
-wristMotor_kF: 0.0449122
+wristMotor_kD: 2.5
+wristMotor_kF: 3.91463871
 wristMotor_kP_1: 0
 wristMotor_kI_1: 0
 wristMotor_kD_1: 0
@@ -241,11 +241,11 @@ wristMotor_allowedClosedLoopError: 0
 wristMotor_maxClosedLoopPeakOutput: 0
 wristMotor_motionCruiseVelocity: 19500
 wristMotor_motionCruiseAcceleration: 44000
-wristMotor_motionSCurveStrength: 3
-wristMotor_forwardSoftLimit: 0.56760742187
-wristMotor_forwardSoftLimitEnable: True
-wristMotor_reverseSoftLimit: -0.07551269531
-wristMotor_reverseSoftLimitEnable: True
+wristMotor_motionSCurveStrength: 1
+wristMotor_forwardSoftLimit: 0
+wristMotor_forwardSoftLimitEnable: False
+wristMotor_reverseSoftLimit: 0
+wristMotor_reverseSoftLimitEnable: False
 wristMotor_feedbackSensorCoefficient: 0
 wristMotor_voltageCompensationSaturation: 12
 wristMotor_voltageCompensationEnabled: True
