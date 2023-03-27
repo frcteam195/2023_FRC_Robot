@@ -9,7 +9,7 @@ robot_wheel_inches_from_center_x: [9.375, 9.375, -9.375, -9.375]
 robot_wheel_inches_from_center_y: [9.375, -9.375, 9.375, -9.375]
 robot_max_fwd_vel: 4.25 #m/s
 robot_max_fwd_accel: 10.0 #m/s^2
-robot_max_fwd_decel: 20.0 #m/s^2
+robot_max_fwd_decel: 4.0 #m/s^2
 robot_max_ang_vel: 8.0 #rad/s
 robot_max_fwd_vel_mult: 1.0
 
