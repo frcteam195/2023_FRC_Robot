@@ -13,7 +13,7 @@ robot_max_fwd_accel: 10.0 #m/s^2
 robot_max_fwd_decel: 4.0 #m/s^2
 quattro_decel: 20.0 #m/s^2
 robot_max_ang_vel: 8.0 #rad/s
-robot_max_fwd_vel_mult: 1.0
+robot_max_fwd_vel_mult: 0.95
 
 motor_type: 0    #0 = TalonFX, 1 = TalonSRX
 voltage_comp_saturation: 12.0   #Saturation voltage
