@@ -15,6 +15,9 @@ quattro_decel: 20.0 #m/s^2
 robot_max_ang_vel: 8.0 #rad/s
 robot_max_fwd_vel_mult: 0.95
 
+default_cook_mps: 0.4
+default_serve_mps: 0.8
+
 motor_type: 0    #0 = TalonFX, 1 = TalonSRX
 voltage_comp_saturation: 12.0   #Saturation voltage
 voltage_comp_enabled: true    #Voltage compensation enabled
