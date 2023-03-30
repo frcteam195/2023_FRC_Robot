@@ -1,3 +1,5 @@
+compressor_enabled_in_auto: false
+
 gear_ratio_to_output_shaft: [
   # Motor 1 Drive 8.14
   6.12244188,
