@@ -39,7 +39,7 @@ intake_voltageCompensationSaturation: 12
 intake_voltageCompensationEnabled: True
 intake_inverted: False
 intake_sensorPhaseInverted: False
-intake_neutralModeBrake: False
+intake_neutralModeBrake: True
 intake_openLoopRamp: 0
 intake_closedLoopRamp: 0
 intake_supplyCurrentLimitEnable: True
