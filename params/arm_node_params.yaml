@@ -239,9 +239,9 @@ wristMotor_iZone: 0
 wristMotor_maxIAccum: 0
 wristMotor_allowedClosedLoopError: 0
 wristMotor_maxClosedLoopPeakOutput: 0
-wristMotor_motionCruiseVelocity: 19500
-wristMotor_motionCruiseAcceleration: 44000
-wristMotor_motionSCurveStrength: 3
+wristMotor_motionCruiseVelocity: 44500
+wristMotor_motionCruiseAcceleration: 48000
+wristMotor_motionSCurveStrength: 0
 wristMotor_forwardSoftLimit: 0.56760742187
 wristMotor_forwardSoftLimitEnable: True
 wristMotor_reverseSoftLimit: -0.07551269531

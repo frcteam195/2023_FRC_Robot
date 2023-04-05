@@ -26,7 +26,7 @@ gear_ratio_to_output_shaft: [
   # Motor 12 Upper Arm Slave
   1.0,
   # Motor 13 Wrist
-  100,
+  81,
   # Motor 14
   6.25,
   # Motor 15
