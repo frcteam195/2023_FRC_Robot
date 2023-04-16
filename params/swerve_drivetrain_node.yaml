@@ -13,7 +13,7 @@ robot_max_fwd_accel: 2.54 #m/s^2
 robot_max_fwd_decel: 3.0 #m/s^2
 quattro_decel: 20.0 #m/s^2
 robot_max_ang_vel: 8.0 #rad/s
-robot_max_fwd_vel_mult: 0.8
+auto_trajectory_max_vel_mps: 3.4
 
 default_cook_mps: 0.4
 default_serve_mps: 0.3
