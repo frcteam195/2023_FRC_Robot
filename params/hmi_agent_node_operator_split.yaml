@@ -33,6 +33,8 @@ intake_open_button_id: 2
 toggle_reverse_side_button_id: 3
 pre_score_position_button_id: 5
 
+force_home_button_id: 6
+
 robot_xmode_id: 10
 
 # POV
