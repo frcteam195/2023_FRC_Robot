@@ -35,6 +35,9 @@ pre_score_position_button_id: 5
 
 force_home_button_id: 6
 
+sport_mode_front_button_id: 8
+sport_mode_back_button_id: 9
+
 robot_xmode_id: 10
 
 # POV
