@@ -83,4 +83,4 @@ joystick_input_ramp_max_val: 1
 #Drive Control is an enum in Drivetrain Node
 #0: Swerve velocity feedforward
 #1: Team 254 Swerve Setpoint Generator
-drive_control_mode: 0
+drive_control_mode: 1
