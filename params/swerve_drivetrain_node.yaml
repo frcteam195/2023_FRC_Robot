@@ -15,6 +15,10 @@ quattro_decel: 20.0 #m/s^2
 robot_max_ang_vel: 8.0 #rad/s
 auto_trajectory_max_vel_mps: 3.4
 
+team254_max_vel: 4.959 #m/s
+team254_max_accel: 24.795 #m/s^2 - 4.959/0.2
+team254_max_ang_vel: 1000 #rad/s 
+
 default_cook_mps: 0.4
 default_serve_mps: 0.3
 
